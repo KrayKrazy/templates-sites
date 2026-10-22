@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mickey's Hamburgueria | O Autêntico Pit-Dog Raiz de Goiânia Desde 1991</title>
+  <meta name="description" content="Peça o autêntico pit-dog raiz de Goiânia! Mais de 30 anos de tradição. Hambúrguer artesanal, bacon crocante, batata palha fininha e entrega quentinha na sua casa via Cakto ou WhatsApp.">
+  <meta name="keywords" content="Mickeys Hamburgueria, Mickey Burguer, Pit Dog Goiania, X-Tudo Goiania, hamburgueria T-63, delivery hamburguer goiania, pit dog raiz">
+  
+  <!-- OpenGraph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mickey's Hamburgueria — Pit-Dog Raiz Uai Desde 1991">
+  <meta property="og:description" content="O clássico pit-dog goiano com pão chapeado na hora, batata palha crocante e muito queijo. Peça online!">
+  <meta property="og:image" content="assets/images/logo.jpg">
+  <meta property="og:locale" content="pt_BR">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="assets/images/logo.jpg">
+
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Schema.org JSON-LD Structured Data for Local SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FastFoodRestaurant",
+    "name": "Mickey's Hamburgueria",
+    "alternateName": "Mickey Burguer",
+    "image": "assets/images/logo.jpg",
+    "description": "O autêntico pit-dog raiz de Goiânia desde 1991. Lanches artesanais, combos e delivery quentinho.",
+    "telephone": "+5562991811354",
+    "servesCuisine": "Hamburgueria, Pit-Dog, Comida Rápida Goiana",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. Circular esquina com Av. T-63",
+      "addressLocality": "Goiânia",
+      "addressRegion": "GO",
+      "postalCode": "74823-020",
+      "addressCountry": "BR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -16.7136039,
+      "longitude": -49.2547711
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "19:00",
+        "closes": "03:30"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.0",
+      "reviewCount": "4"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <aside class="top-banner">
+    <span class="badge">🔥 PIT-DOG RAIZ</span>
+    <span>🏆 Desde 1991 em Goiânia • Entrega Quentinha na sua Porta • Pague via Pix no Cakto!</span>
+  </aside>
+
+  <!-- Sticky Header -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#" class="logo-brand">
+        <img src="assets/images/logo.jpg" alt="Logo Mickey Burguer Since 1991" class="logo-img">
+        <div class="brand-text">
+          <h1>MICKEY'S <span>BURGUER</span></h1>
+          <span class="tagline">PIT-DOG RAIZ UAI • DESDE 1991</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="#cardapio" class="nav-link active">Cardápio</a></li>
+          <li><a href="#tradicao" class="nav-link">Nossa Tradição</a></li>
+          <li><a href="#avaliacoes" class="nav-link">Avaliações</a></li>
+          <li><a href="#localizacao" class="nav-link">Onde Estamos</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <div class="btn-status-badge" id="store-status-badge">
+          <span class="status-dot"></span>
+          <span>Abre às 19:00</span>
+        </div>
+
+        <button class="btn-cart-trigger" onclick="openCartDrawer()" aria-label="Abrir Carrinho de Compras">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+          <span class="cart-label">Pedido</span>
+          <span class="cart-count">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Hero Section -->
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span>🍔 O Verdadeiro Pit-Dog Goiano</span>
+          </div>
+
+          <h1 class="hero-title">
+            O sabor inconfundível do <span class="highlight-yellow">Pit-Dog Raiz</span> de Goiânia.
+          </h1>
+
+          <p class="hero-description">
+            Pão chapeado na manteiga com recheio farto de verdade: blends artesanais suculentos, queijo derretendo, muito bacon tostado, milho verde e a lendária batata palha crocante. Entregue fumegando na sua casa!
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#cardapio" class="btn-primary">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+              Ver Cardápio & Fazer Pedido
+            </a>
+            <a href="https://wa.me/5562991811354?text=Ol%C3%A1%2C%20gostaria%20de%20ver%20o%20card%C3%A1pio%20e%20fazer%20um%20pedido%20no%20Mickey%20Burguer!" target="_blank" class="btn-whatsapp-outline">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.584 1.838.914 2.791.914 3.179 0 5.767-2.586 5.768-5.766 0-3.18-2.588-5.77-5.768-5.77zm3.391 8.243c-.144.405-.837.774-1.17.824-.312.045-.694.075-2.029-.476-1.574-.648-2.586-2.253-2.666-2.359-.079-.106-.649-.864-.649-1.648 0-.783.411-1.17.558-1.328.147-.158.324-.198.432-.198.108 0 .216.002.311.007.1.006.234-.038.366.279.135.324.46 1.121.5 1.203.04.081.067.176.013.283-.054.108-.081.176-.162.271-.081.095-.171.212-.244.285-.081.082-.166.172-.072.334.095.162.421.696.902 1.125.621.554 1.144.726 1.306.808.162.081.257.068.351-.041.095-.108.405-.473.513-.635.108-.162.216-.135.365-.081.149.054.946.446 1.109.527.162.081.27.122.311.189.041.068.041.392-.103.797z"/></svg>
+              Pedir pelo WhatsApp
+            </a>
+          </div>
+
+          <div class="hero-stats-row">
+            <div class="stat-item">
+              <span class="stat-value">33+ Anos</span>
+              <span class="stat-label">De Tradição em Goiânia</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">4.0 ⭐</span>
+              <span class="stat-label">Avaliação Google</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">100% Raiz</span>
+              <span class="stat-label">Pão Chapeado na Hora</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <div class="hero-media-wrapper">
+            <img src="assets/images/mickey-cheddar-bacon.jpg" alt="Mickey Cheddar Bacon com Batata Palha Crocante" class="hero-main-img">
+            
+            <div class="hero-floating-card card-badge-1">
+              <div class="floating-icon">🧀</div>
+              <div>
+                <div class="floating-title">Piscina de Cheddar & Catupiry</div>
+                <div class="floating-sub">Com bacon dourado generoso</div>
+              </div>
+            </div>
+
+            <div class="hero-floating-card card-badge-2">
+              <div class="floating-icon">🏍️</div>
+              <div>
+                <div class="floating-title">Entrega Quentinha</div>
+                <div class="floating-sub">Embalagem térmica selada</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Value Propositions / Benefits -->
+    <section class="benefits-strip">
+      <div class="container benefits-grid">
+        <div class="benefit-box">
+          <div class="benefit-icon">🏆</div>
+          <div class="benefit-content">
+            <h4>Desde 1991</h4>
+            <p>Mais de três décadas honrando o patrimônio cultural do pit-dog.</p>
+          </div>
+        </div>
+
+        <div class="benefit-box">
+          <div class="benefit-icon">🍳</div>
+          <div class="benefit-content">
+            <h4>Pão Chapeado</h4>
+            <p>Selado na manteiga na chapa bem quente com maionese especial.</p>
+          </div>
+        </div>
+
+        <div class="benefit-box">
+          <div class="benefit-icon">💳</div>
+          <div class="benefit-content">
+            <h4>Checkout Seguro Cakto</h4>
+            <p>Pague com Pix instantâneo ou Cartão sem filas e com segurança.</p>
+          </div>
+        </div>
+
+        <div class="benefit-box">
+          <div class="benefit-icon">🍟</div>
+          <div class="benefit-content">
+            <h4>Fartura de Verdade</h4>
+            <p>Batata palha crocante, milho, queijo esticando e muita carne.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu & Products Section -->
+    <section class="menu-section" id="cardapio">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Cardápio Oficial</span>
+          <h2 class="section-title">Escolha seu lanche favorito</h2>
+          <p class="section-subtitle">Sanduíches montados na hora com ingredientes selecionados de alta qualidade. Personalize como preferir!</p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="category-filter">
+          <button class="category-btn active" data-category="todos">🍔 Todos os Lanches</button>
+          <button class="category-btn" data-category="especiais">⭐ Especiais da Casa</button>
+          <button class="category-btn" data-category="combos">🥤 Combos com Refri</button>
+          <button class="category-btn" data-category="classicos">🥩 Clássicos Pit-Dog</button>
+          <button class="category-btn" data-category="acompanhamentos">🍟 Acompanhamentos</button>
+        </div>
+
+        <!-- Products Grid Container -->
+        <div class="products-grid" id="products-grid">
+          <!-- Populated by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Pit-Dog Tradition Story -->
+    <section class="about-section" id="tradicao">
+      <div class="container about-grid">
+        <div class="about-images-mosaic">
+          <img src="assets/images/mickey-especial.jpg" alt="Mickey Especial X-Tudo" class="mosaic-img mosaic-img-1">
+          <img src="assets/images/pitdog-combo-heinz.jpg" alt="Sanduíche com Maionese Heinz" class="mosaic-img">
+          <img src="assets/images/mickey-frango-catupiry.jpg" alt="Mickey Frango Catupiry" class="mosaic-img">
+          
+          <div class="about-badge-since">
+            <span>DESDE<br><strong>1991</strong><br>GOIÂNIA</span>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <span class="section-tag">Patrimônio Goiano</span>
+          <h2>Pit-Dog não é apenas comida, é sentimento.</h2>
+          <p>
+            Desde 1991, na movimentada esquina da Av. Circular com a T-63 em Goiânia, a <strong>Mickey's Hamburgueria</strong> mantém viva a tradição mais saborosa do Centro-Oeste: o verdadeiro pit-dog raiz.
+          </p>
+          <p>
+            Enquanto as hamburguerias gourmet diminuem os ingredientes, nós continuamos servindo aquele lanche farto, com pão tostado na manteiga de garrafa, blend saboroso, ovo chapeado, queijo muçarela legítimo, milho doce e a clássica batata palha fininha que estala na boca.
+          </p>
+          <p>
+            Nosso compromisso é entregar a você o melhor sanduíche da madrugada ou do seu jantar em família, quentinho e rápido na sua mesa!
+          </p>
+
+          <div class="about-features">
+            <div class="feature-pill">
+              <span>✓</span> Receita Original 1991
+            </div>
+            <div class="feature-pill">
+              <span>✓</span> Maionese Heinz da Casa
+            </div>
+            <div class="feature-pill">
+              <span>✓</span> Entrega Rápida e Rastreada
+            </div>
+            <div class="feature-pill">
+              <span>✓</span> Catupiry Original
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Google Reviews & Social Proof -->
+    <section class="reviews-section" id="avaliacoes">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Depoimentos Reais</span>
+          <h2 class="section-title">O que dizem os clientes no Google</h2>
+          <p class="section-subtitle">Avaliações 100% verificadas de quem ama o Mickey Burguer há gerações.</p>
+        </div>
+
+        <div class="reviews-grid">
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">"Preço justo, pois os sanduíches são gostosos e deixam você saciado. O pão chapeado e a batata palha são um espetáculo à parte!"</p>
+            <div class="review-author">
+              <div class="author-avatar">MC</div>
+              <div class="author-info">
+                <h5>Cliente Google</h5>
+                <span>Avaliação Verificada</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">"Lanche e atendimento excelente! Peço há anos aqui em Goiânia e a qualidade nunca caiu. Entrega super rápida e quentinha."</p>
+            <div class="review-author">
+              <div class="author-avatar">RS</div>
+              <div class="author-info">
+                <h5>Cliente Local</h5>
+                <span>Setor Pedro Ludovico</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">"Pit-dog raiz de verdade! Sem frescura, com muita fartura e sabor sensacional. O melhor da T-63 com certeza."</p>
+            <div class="review-author">
+              <div class="author-avatar">GL</div>
+              <div class="author-info">
+                <h5>Guia Local Goiânia</h5>
+                <span>Avaliação 5 Estrelas</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="google-rating-banner">
+          <div class="google-brand">
+            <svg width="32" height="32" viewBox="0 0 24 24"><path fill="#4285F4" d="M23.745 12.27c0-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.82-2.4 3.68v3.05h3.88c2.27-2.09 3.665-5.17 3.665-9.17z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.05c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.1-6.72-4.93H1.25v3.15C3.26 21.36 7.33 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.27c-.25-.72-.38-1.49-.38-2.27s.13-1.55.38-2.27V6.58H1.25C.45 8.18 0 9.99 0 12s.45 3.82 1.25 5.42l4.03-3.15z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.33 0 3.26 2.64 1.25 6.58l4.03 3.15c.95-2.83 3.6-4.98 6.72-4.98z"/></svg>
+            <div>
+              <h4 style="font-weight: 800;">Mickey’s Hamburgueria no Google Meu Negócio</h4>
+              <p style="font-size: 0.85rem; color: var(--text-secondary);">Nota média de 4,0 estrelas comprovada pelos clientes locais.</p>
+            </div>
+          </div>
+
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <div class="google-score">4.0 ★★★★☆</div>
+            <a href="https://maps.google.com/?cid=16715102573212894009" target="_blank" class="btn-whatsapp-outline" style="padding: 0.5rem 1rem; font-size: 0.85rem;">
+              Ver no Google Maps ↗
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location & Contact -->
+    <section class="location-section" id="localizacao">
+      <div class="container location-grid">
+        <div class="contact-card-box">
+          <span class="section-tag">Venha nos Visitar</span>
+          <h2 style="font-size: 2.2rem; font-weight: 900; line-height: 1.15;">Onde Encontrar o Mickey Burguer</h2>
+          <p style="color: var(--text-secondary); font-size: 1rem;">
+            Estamos localizados no coração de Goiânia, ponto de fácil acesso para você retirar seu lanche quentinho ou pedir pelo nosso delivery.
+          </p>
+
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div class="contact-details">
+              <h4>Endereço Físico</h4>
+              <p>Av. Circular com Av. T-63, Goiânia - GO, CEP 74823-020 (Setor Pedro Ludovico)</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">⏰</div>
+            <div class="contact-details">
+              <h4>Horário de Funcionamento</h4>
+              <p>Aberto todas as noites das <strong>19:00 até 03:30</strong> da madrugada</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">📲</div>
+            <div class="contact-details">
+              <h4>Telefone & WhatsApp</h4>
+              <p><a href="tel:62991811354" style="color: var(--color-primary); font-weight: 700;">(62) 99181-1354</a></p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">📸</div>
+            <div class="contact-details">
+              <h4>Instagram Oficial</h4>
+              <p><a href="https://www.instagram.com/mickey_burguer/" target="_blank" style="color: #E1306C; font-weight: 700;">@mickey_burguer</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="map-wrapper">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3821.5794827092147!2d-49.25734602396347!3d-16.713603884065636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef173d3ce32ab%3A0xe7f5ca645a5f0339!2sMickey&#39;s%20Hamburgueria!5e0!3m2!1spt-BR!2sbr!4v1714000000000!5m2!1spt-BR!2sbr" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Localização Mickey's Hamburgueria no Google Maps">
+          </iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo-brand">
+            <img src="assets/images/logo.jpg" alt="Logo Mickey Burguer" class="logo-img">
+            <div class="brand-text">
+              <h1>MICKEY'S <span>BURGUER</span></h1>
+              <span class="tagline">PIT-DOG RAIZ UAI • DESDE 1991</span>
+            </div>
+          </div>
+          <p>
+            O legítimo pit-dog goiano com muito bacon, ovo, queijo derretido, milho e batata palha crocante. Entregas em toda Goiânia.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul class="footer-links">
+            <li><a href="#cardapio">Cardápio Completo</a></li>
+            <li><a href="#tradicao">História Desde 1991</a></li>
+            <li><a href="#avaliacoes">Depoimentos</a></li>
+            <li><a href="#localizacao">Como Chegar</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Bairros Atendidos</h4>
+          <ul class="footer-links">
+            <li><a href="#cardapio">Setor Pedro Ludovico</a></li>
+            <li><a href="#cardapio">Setor Bueno & Marista</a></li>
+            <li><a href="#cardapio">Setor Sul & Bela Vista</a></li>
+            <li><a href="#cardapio">Jardim Goiás & América</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Pagamento Seguro Cakto</h4>
+          <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.5rem;">
+            Processado com tecnologia criptografada via Cakto Gateway:
+          </p>
+          <div class="payment-badges">
+            <span class="payment-tag">⚡ Pix Instantâneo</span>
+            <span class="payment-tag">💳 Cartão de Crédito</span>
+            <span class="payment-tag"> Apple Pay</span>
+            <span class="payment-tag">G Pay</span>
+            <span class="payment-tag">💵 Dinheiro na Entrega</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 1991 - 2026 Mickey's Hamburgueria Goiânia. Todos os direitos reservados.
+        </div>
+        <div>
+          Desenvolvido com tecnologia Jamstack de Alta Conversão & Cakto Pay.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Slide-out Cart Drawer (Lateral) -->
+  <div class="cart-backdrop" id="cart-backdrop" onclick="closeCartDrawer()"></div>
+  <aside class="cart-drawer" id="cart-drawer" aria-label="Carrinho de Compras">
+    <div class="cart-header">
+      <h3>
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+        Seu Pedido (<span class="cart-count">0</span>)
+      </h3>
+      <button class="btn-close-cart" onclick="closeCartDrawer()" aria-label="Fechar Carrinho">✕</button>
+    </div>
+
+    <div class="cart-body" id="cart-items-body">
+      <!-- Injetado dinamicamente pelo JavaScript -->
+    </div>
+
+    <div class="cart-footer">
+      <!-- Opções de Entrega -->
+      <div class="delivery-options-box">
+        <div class="delivery-type-tabs">
+          <button class="btn-tab active" data-type="delivery" onclick="setDeliveryType('delivery')">🛵 Entrega em Casa</button>
+          <button class="btn-tab" data-type="pickup" onclick="setDeliveryType('pickup')">🏪 Retirada no Pit-Dog</button>
+        </div>
+
+        <div id="neighborhood-wrapper">
+          <label style="font-size: 0.75rem; color: var(--text-secondary); margin-bottom: 0.25rem; display: block;">Seu Bairro em Goiânia:</label>
+          <select id="neighborhood-select" class="neighborhood-select" onchange="onNeighborhoodChange(this)">
+            <option value="pedro_ludovico">Setor Pedro Ludovico (Taxa R$ 5,00)</option>
+            <option value="bueno">Setor Bueno (Taxa R$ 7,00)</option>
+            <option value="marista">Setor Marista (Taxa R$ 7,00)</option>
+            <option value="bela_vista">Setor Bela Vista (Taxa R$ 6,00)</option>
+            <option value="sul">Setor Sul (Taxa R$ 7,00)</option>
+            <option value="jardim_america">Jardim América (Taxa R$ 8,00)</option>
+            <option value="jardim_goias">Jardim Goiás (Taxa R$ 8,00)</option>
+            <option value="oeste">Setor Oeste (Taxa R$ 9,00)</option>
+            <option value="outro">Outro Bairro (Taxa R$ 10,00)</option>
+          </select>
+        </div>
+
+        <div id="address-input-wrapper" style="margin-top: 0.6rem;">
+          <input type="text" id="client-name" class="neighborhood-select" placeholder="Seu Nome Completo" style="margin-bottom: 0.4rem;">
+          <input type="text" id="client-address" class="neighborhood-select" placeholder="Rua, Número, Quadra, Lote e Apto">
+        </div>
+      </div>
+
+      <!-- Cupom de Desconto -->
+      <div style="display: flex; gap: 0.4rem;">
+        <input type="text" id="coupon-input" class="neighborhood-select" placeholder="Cupom (ex: RAIZ10)" style="text-transform: uppercase;">
+        <button onclick="applyCoupon()" class="btn-card-cart" style="padding: 0.45rem 0.85rem; font-size: 0.8rem;">Aplicar</button>
+      </div>
+
+      <!-- Sumário Financeiro -->
+      <div style="display: flex; flex-direction: column; gap: 0.35rem;">
+        <div class="cart-summary-row">
+          <span>Subtotal dos Lanches:</span>
+          <span id="cart-subtotal">R$ 0,00</span>
+        </div>
+        <div class="cart-summary-row">
+          <span>Taxa de Entrega:</span>
+          <span id="cart-delivery-fee">R$ 5,00</span>
+        </div>
+        <div class="cart-summary-row" id="cart-discount-row" style="display: none; color: #4ADE80;">
+          <span>Desconto do Cupom:</span>
+          <span id="cart-discount-val">- R$ 0,00</span>
+        </div>
+        <div class="cart-summary-row total-row">
+          <span>Total Geral:</span>
+          <span class="total-amount" id="cart-total-val">R$ 0,00</span>
+        </div>
+      </div>
+
+      <!-- Botões de Finalização -->
+      <button class="btn-checkout-cakto" onclick="checkoutCakto()">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+        Pagar no Cakto (Pix / Cartão)
+      </button>
+
+      <button class="btn-checkout-wa" onclick="checkoutWhatsApp()">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.584 1.838.914 2.791.914 3.179 0 5.767-2.586 5.768-5.766 0-3.18-2.588-5.77-5.768-5.77zm3.391 8.243c-.144.405-.837.774-1.17.824-.312.045-.694.075-2.029-.476-1.574-.648-2.586-2.253-2.666-2.359-.079-.106-.649-.864-.649-1.648 0-.783.411-1.17.558-1.328.147-.158.324-.198.432-.198.108 0 .216.002.311.007.1.006.234-.038.366.279.135.324.46 1.121.5 1.203.04.081.067.176.013.283-.054.108-.081.176-.162.271-.081.095-.171.212-.244.285-.081.082-.166.172-.072.334.095.162.421.696.902 1.125.621.554 1.144.726 1.306.808.162.081.257.068.351-.041.095-.108.405-.473.513-.635.108-.162.216-.135.365-.081.149.054.946.446 1.109.527.162.081.27.122.311.189.041.068.041.392-.103.797z"/></svg>
+        Enviar Pedido no WhatsApp (62) 99181-1354
+      </button>
+    </div>
+  </aside>
+
+  <!-- Modal de Personalização do Sanduíche -->
+  <div class="modal-backdrop" id="customize-modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <img src="" id="modal-img" alt="Foto do Hambúrguer" class="modal-hero-img">
+        <button class="btn-close-modal" onclick="closeCustomizeModal()">✕</button>
+      </div>
+
+      <div class="modal-body">
+        <div>
+          <h3 class="modal-title" id="modal-title">Nome do Lanche</h3>
+          <p class="modal-desc" id="modal-desc">Descrição dos ingredientes clássicos.</p>
+          <div style="margin-top: 0.5rem; font-size: 0.9rem; font-weight: 700; color: var(--color-primary);">
+            Preço Base: <span id="modal-base-price">R$ 0,00</span>
+          </div>
+        </div>
+
+        <!-- Grupo de Remoção -->
+        <div id="removals-group">
+          <h4 class="custom-group-title">Deseja Retirar Algum Ingrediente?</h4>
+          <div id="modal-removals-list">
+            <!-- Checkboxes de remoção -->
+          </div>
+        </div>
+
+        <!-- Grupo de Adicionais -->
+        <div id="extras-group">
+          <h4 class="custom-group-title">Turbine seu Pit-Dog (Adicionais)</h4>
+          <div id="modal-extras-list">
+            <!-- Checkboxes de extras -->
+          </div>
+        </div>
+
+        <!-- Observações -->
+        <div>
+          <h4 class="custom-group-title">Observações Especiais</h4>
+          <textarea id="modal-notes" class="neighborhood-select" rows="2" placeholder="Ex: 'Cortar ao meio', 'Ponto da carne bem passada', 'Maionese à parte'"></textarea>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <div class="modal-total-display">
+          <span class="modal-total-label">Total deste Item:</span>
+          <span class="modal-total-val" id="modal-total-val">R$ 0,00</span>
+        </div>
+
+        <button class="btn-primary" onclick="confirmCustomization()" style="padding: 0.75rem 1.4rem;">
+          Adicionar ao Carrinho
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Floating Sticky Bar -->
+  <div class="mobile-sticky-bar">
+    <button class="sticky-cart-btn" onclick="openCartDrawer()">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+      Ver Pedido (<span class="cart-count">0</span>)
+    </button>
+    <a href="https://wa.me/5562991811354?text=Ol%C3%A1%2C%20quero%20fazer%20um%20pedido%20no%20Mickey%20Burguer!" target="_blank" class="sticky-wa-btn" aria-label="Chamar no WhatsApp">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.584 1.838.914 2.791.914 3.179 0 5.767-2.586 5.768-5.766 0-3.18-2.588-5.77-5.768-5.77zm3.391 8.243c-.144.405-.837.774-1.17.824-.312.045-.694.075-2.029-.476-1.574-.648-2.586-2.253-2.666-2.359-.079-.106-.649-.864-.649-1.648 0-.783.411-1.17.558-1.328.147-.158.324-.198.432-.198.108 0 .216.002.311.007.1.006.234-.038.366.279.135.324.46 1.121.5 1.203.04.081.067.176.013.283-.054.108-.081.176-.162.271-.081.095-.171.212-.244.285-.081.082-.166.172-.072.334.095.162.421.696.902 1.125.621.554 1.144.726 1.306.808.162.081.257.068.351-.041.095-.108.405-.473.513-.635.108-.162.216-.135.365-.081.149.054.946.446 1.109.527.162.081.27.122.311.189.041.068.041.392-.103.797z"/></svg>
+    </a>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-notice" id="toast-notice"></div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>

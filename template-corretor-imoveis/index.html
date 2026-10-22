@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cleytinho Imóveis | Corretor de Imóveis de Alto Padrão & Médio Padrão</title>
+  <meta name="description" content="Encontre o imóvel dos seus sonhos com Cleytinho Imóveis. Casas em condomínio fechado, apartamentos de alto padrão, lançamentos e consultoria imobiliária com assessoria de financiamento completa.">
+  <meta name="keywords" content="corretor de imóveis, cleytinho imóveis, comprar casa, comprar apartamento, financiamento imobiliário, imóveis de luxo, condomínio fechado">
+  <meta name="author" content="Cleytinho Imóveis">
+
+  <!-- Open Graph / Redes Sociais -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Cleytinho Imóveis | O Seu Corretor de Confiança">
+  <meta property="og:description" content="Casas em condomínio, coberturas, apartamentos e lançamentos exclusivos. Faça sua simulação de financiamento e agende uma visita privativa.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80">
+
+  <!-- Google Fonts & FontAwesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Schema.org RealEstateAgent -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "RealEstateAgent",
+    "name": "Cleytinho Imóveis",
+    "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80",
+    "description": "Assessoria imobiliária de alto e médio padrão, avaliação técnica e consultoria de financiamento habitacional credenciada.",
+    "telephone": "+55 11 99999-8888",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "São Paulo",
+      "addressRegion": "SP",
+      "addressCountry": "BR"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "opens": "08:00",
+      "closes": "20:00"
+    },
+    "priceRange": "$$$$"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar">
+    <div class="container announcement-content">
+      <div class="announcement-left">
+        <span class="badge-creci"><i class="fa-solid fa-id-card"></i> CRECI 184.290-F</span>
+        <span class="live-status"><span class="ping-dot"></span> Atendimento Online Imediato</span>
+      </div>
+      <div class="announcement-right">
+        <a href="tel:+5511999998888" class="contact-top-link"><i class="fa-solid fa-phone"></i> (11) 99999-8888</a>
+        <a href="https://wa.me/5511999998888?text=Ol%C3%A1%20Cleytinho!%20Vim%20pelo%20site%20e%20gostaria%20de%20consultoria%20imobili%C3%A1ria." target="_blank" class="contact-top-link wa-pill">
+          <i class="fa-brands fa-whatsapp"></i> Falar no WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="main-header" id="header">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo">
+        <div class="logo-mark">
+          <i class="fa-solid fa-city"></i>
+        </div>
+        <div class="logo-text">
+          <span class="brand-name">CLEYTINHO</span>
+          <span class="brand-sub">IMÓVEIS & ASSESSORIA</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#imoveis" class="nav-link">Imóveis</a>
+        <a href="#simulador" class="nav-link">Simulador de Crédito</a>
+        <a href="#diferenciais" class="nav-link">Diferenciais</a>
+        <a href="#sobre" class="nav-link">Sobre Cleytinho</a>
+        <a href="#depoimentos" class="nav-link">Depoimentos</a>
+        <a href="#contato" class="nav-link">Contato</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="https://wa.me/5511999998888?text=Ol%C3%A1%20Cleytinho!%20Gostaria%20de%20agendar%20uma%20visita." target="_blank" class="btn btn-primary btn-glow">
+          <i class="fa-regular fa-calendar-check"></i> Agendar Visita
+        </a>
+        <button class="mobile-toggle" id="menuToggle" aria-label="Abrir Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section with Search Bar -->
+  <section class="hero-section" id="home">
+    <div class="hero-bg-overlay"></div>
+    <div class="container hero-container">
+      <div class="hero-badge">
+        <i class="fa-solid fa-shield-halved"></i> Negociações Seguras & Transparência Total
+      </div>
+      <h1 class="hero-title">
+        Encontre o Imóvel Perfeito com a Consultoria Exclusiva de <span>Cleytinho Imóveis</span>
+      </h1>
+      <p class="hero-subtitle">
+        Casas de condomínio, apartamentos premium e lançamentos sob medida. Acompanhamos do primeiro tour até a entrega das chaves e aprovação bancária.
+      </p>
+
+      <!-- Advanced Filter Search Card -->
+      <div class="search-card">
+        <div class="search-tabs">
+          <button class="tab-btn active" data-intent="comprar">Comprar</button>
+          <button class="tab-btn" data-intent="alugar">Alugar</button>
+          <button class="tab-btn" data-intent="lancamento">Lançamentos na Planta</button>
+        </div>
+        <div class="search-form-grid">
+          <div class="search-field">
+            <label><i class="fa-solid fa-house"></i> Tipo de Imóvel</label>
+            <select id="filterType">
+              <option value="todos">Todos os Tipos</option>
+              <option value="casa">Casa em Condomínio</option>
+              <option value="apartamento">Apartamento Luxo</option>
+              <option value="cobertura">Cobertura Penthouse</option>
+              <option value="terreno">Terreno / Lote</option>
+            </select>
+          </div>
+          <div class="search-field">
+            <label><i class="fa-solid fa-location-dot"></i> Região / Bairro</label>
+            <select id="filterLocation">
+              <option value="todas">Todas as Regiões</option>
+              <option value="jardins">Jardins & Moema</option>
+              <option value="alphaville">Alphaville & Tamboré</option>
+              <option value="itaim">Itaim Bibi & Vila Olímpia</option>
+              <option value="perdizes">Perdizes & Pinheiros</option>
+            </select>
+          </div>
+          <div class="search-field">
+            <label><i class="fa-solid fa-dollar-sign"></i> Faixa de Valor</label>
+            <select id="filterPrice">
+              <option value="todos">Qualquer Valor</option>
+              <option value="500k-1m">Até R$ 1.000.000</option>
+              <option value="1m-2m">R$ 1M a R$ 2.000.000</option>
+              <option value="2m-5m">R$ 2M a R$ 5.000.000</option>
+              <option value="5m+">Acima de R$ 5.000.000</option>
+            </select>
+          </div>
+          <div class="search-submit">
+            <button class="btn btn-emerald w-100" id="btnSearchProperties">
+              <i class="fa-solid fa-magnifying-glass"></i> Buscar Imóveis
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Trust Indicators / Counters -->
+      <div class="stats-row">
+        <div class="stat-item">
+          <span class="stat-number">+12</span>
+          <span class="stat-label">Anos de Mercado</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">+R$ 150M</span>
+          <span class="stat-label">VGV Negociado</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">+620</span>
+          <span class="stat-label">Famílias Realizadas</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">99.4%</span>
+          <span class="stat-label">Aprovação de Crédito</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Properties Section -->
+  <section class="properties-section" id="imoveis">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag"><i class="fa-solid fa-gem"></i> Portfólio Selecionado</span>
+        <h2 class="section-title">Imóveis em Destaque</h2>
+        <p class="section-desc">Seleção rigorosa de residências com documentação 100% regularizada e alto potencial de valorização.</p>
+        
+        <!-- Filter Pills -->
+        <div class="category-filters">
+          <button class="filter-pill active" data-category="todos">Todos</button>
+          <button class="filter-pill" data-category="casa">Casas em Condomínio</button>
+          <button class="filter-pill" data-category="apartamento">Apartamentos</button>
+          <button class="filter-pill" data-category="cobertura">Coberturas</button>
+          <button class="filter-pill" data-category="lancamento">Lançamentos</button>
+        </div>
+      </div>
+
+      <!-- Properties Grid -->
+      <div class="properties-grid" id="propertiesContainer">
+        <!-- Rendered dynamically by script.js with rich mock data -->
+      </div>
+
+      <div class="text-center mt-5">
+        <a href="https://wa.me/5511999998888?text=Ol%C3%A1%20Cleytinho,%20gostaria%20de%20ver%20o%20cat%C3%A1logo%20completo%20de%20im%C3%B3veis%20dispon%C3%ADveis." target="_blank" class="btn btn-outline-primary btn-lg">
+          <i class="fa-solid fa-list-check"></i> Ver Catálogo Completo no WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Mortgage Simulator Section -->
+  <section class="simulator-section" id="simulador">
+    <div class="container">
+      <div class="simulator-card">
+        <div class="simulator-grid">
+          <div class="simulator-info">
+            <span class="section-tag text-emerald"><i class="fa-solid fa-calculator"></i> Ferramenta Gratuita</span>
+            <h2 class="simulator-title">Simulador de Financiamento Habitacional</h2>
+            <p class="simulator-desc">
+              Descubra na hora a estimativa das suas parcelas e o valor de entrada ideal. Fazemos a consultoria junto aos maiores bancos (Caixa, Itaú, Bradesco e Santander) para encontrar a menor taxa de juros do mercado.
+            </p>
+            <ul class="simulator-benefits">
+              <li><i class="fa-solid fa-circle-check"></i> Análise de crédito sem custo e sem compromisso</li>
+              <li><i class="fa-solid fa-circle-check"></i> Use seu saldo de FGTS para abater a entrada</li>
+              <li><i class="fa-solid fa-circle-check"></i> Taxas competitivas a partir de 8,99% a.a.</li>
+              <li><i class="fa-solid fa-circle-check"></i> Resposta de pré-aprovação em até 24 horas</li>
+            </ul>
+          </div>
+
+          <div class="simulator-controls">
+            <div class="calc-group">
+              <div class="calc-label-row">
+                <label for="propertyValueInput">Valor Estimado do Imóvel:</label>
+                <span class="calc-val-display" id="displayPropValue">R$ 800.000</span>
+              </div>
+              <input type="range" id="propertyValueRange" min="200000" max="5000000" step="50000" value="800000" class="custom-range">
+            </div>
+
+            <div class="calc-group">
+              <div class="calc-label-row">
+                <label for="downPaymentInput">Valor de Entrada (Mín. 20%):</label>
+                <span class="calc-val-display" id="displayDownPayment">R$ 160.000</span>
+              </div>
+              <input type="range" id="downPaymentRange" min="40000" max="4000000" step="10000" value="160000" class="custom-range">
+            </div>
+
+            <div class="calc-group">
+              <div class="calc-label-row">
+                <label for="amortizationMonths">Prazo de Amortização:</label>
+                <span class="calc-val-display" id="displayTermMonths">360 meses (30 anos)</span>
+              </div>
+              <input type="range" id="termMonthsRange" min="120" max="420" step="12" value="360" class="custom-range">
+            </div>
+
+            <!-- Result Box -->
+            <div class="simulator-result-box">
+              <div class="res-item">
+                <span class="res-label">Valor Financiado:</span>
+                <span class="res-value" id="resFinanced">R$ 640.000</span>
+              </div>
+              <div class="res-item highlight">
+                <span class="res-label">Primeira Parcela Estimada:</span>
+                <span class="res-value text-emerald" id="resInstallment">R$ 5.480/mês</span>
+              </div>
+              <small class="res-note">*Simulação aproximada no sistema SAC com taxa de 9.5% a.a. O valor real depende do perfil de crédito.</small>
+            </div>
+
+            <button class="btn btn-emerald btn-lg w-100" id="btnSendSimulation">
+              <i class="fa-brands fa-whatsapp"></i> Solicitar Aprovação deste Crédito
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Diferenciais / Por Que Cleytinho Imóveis -->
+  <section class="benefits-section" id="diferenciais">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag"><i class="fa-solid fa-award"></i> Vantagens Exclusivas</span>
+        <h2 class="section-title">Por Que Negociar Com Cleytinho Imóveis?</h2>
+        <p class="section-desc">Nosso compromisso é proteger seu patrimônio com assessoria jurídica e humana em cada etapa.</p>
+      </div>
+
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <div class="benefit-icon"><i class="fa-solid fa-scale-balanced"></i></div>
+          <h3>Blindagem Jurídica Completa</h3>
+          <p>Auditoria minuciosa de certidões, matrícula do imóvel, pendências fiscais e histórico dos proprietários para garantir risco zero.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+          <h3>Correspondente Bancário Homologado</h3>
+          <p>Cuidamos de toda a burocracia de financiamento e uso do FGTS direto com a gerência dos principais bancos sem você pegar filas.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon"><i class="fa-solid fa-chart-line"></i></div>
+          <h3>Avaliação Técnica de Mercado</h3>
+          <p>Laudos precisos baseados em transações reais da região, evitando pagar a mais ou vender seu patrimônio abaixo do valor justo.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon"><i class="fa-solid fa-handshake-simple"></i></div>
+          <h3>Negociação Assertiva & Transparente</h3>
+          <p>Postura ética e firme para alinhar expectativas entre comprador e vendedor, viabilizando o melhor acordo financeiro.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Realtor Section -->
+  <section class="about-section" id="sobre">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-wrapper">
+          <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80" alt="Cleytinho Corretor de Imóveis" class="about-photo">
+          <div class="about-card-float">
+            <i class="fa-solid fa-certificate"></i>
+            <div>
+              <strong>Cleytinho</strong>
+              <span>CRECI 184.290-F</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <span class="section-tag"><i class="fa-solid fa-user-tie"></i> Seu Consultor Pessoal</span>
+          <h2 class="about-title">"Mais que vender metros quadrados, realizamos o porto seguro da sua família."</h2>
+          <p class="about-text">
+            Com mais de uma década atuando no mercado imobiliário regional, construí minha carreira sobre dois pilares inegociáveis: <strong>verdade absoluta</strong> e <strong>foco nos objetivos do cliente</strong>.
+          </p>
+          <p class="about-text">
+            Sei que a compra de um imóvel é um dos passos mais significativos na vida de uma pessoa ou casal. Por isso, presto um atendimento consultivo VIP — selecionando apenas propriedades que realmente combinem com o seu estilo de vida, orçamento e planos futuros.
+          </p>
+
+          <div class="about-badges">
+            <div class="badge-item">
+              <i class="fa-solid fa-check"></i> Corretor Perito Avaliador Credenciado
+            </div>
+            <div class="badge-item">
+              <i class="fa-solid fa-check"></i> Especialista em Alto Padrão & Condomínios
+            </div>
+            <div class="badge-item">
+              <i class="fa-solid fa-check"></i> Atendimento com Hora Marcada e Carro Executivo
+            </div>
+          </div>
+
+          <div class="about-cta-row">
+            <a href="https://wa.me/5511999998888?text=Ol%C3%A1%20Cleytinho!%20Li%20seu%20perfil%20e%20gostaria%20de%20bater%20um%20papo." target="_blank" class="btn btn-primary">
+              <i class="fa-brands fa-whatsapp"></i> Conversar Diretamente com Cleytinho
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials-section" id="depoimentos">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag"><i class="fa-solid fa-star"></i> Avaliações Reais</span>
+        <h2 class="section-title">O Que Nossos Clientes Dizem</h2>
+        <p class="section-desc">A satisfação de quem conquistou a casa própria ou fez excelentes investimentos com nossa assessoria.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <p class="testimonial-body">
+            "O Cleytinho foi primordial na compra da nossa casa em condomínio. Nos deu toda a segurança na parte documental e ainda conseguiu aprovar nosso financiamento com juros bem menores que o banco nos oferecia direto no balcão."
+          </p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="Dra. Mariana Castro">
+            <div>
+              <strong>Dra. Mariana Castro</strong>
+              <span>Comprou Casa no Tamboré</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <p class="testimonial-body">
+            "Excelente profissional! Vendeu meu apartamento no Itaim em menos de 45 dias pelo preço justo de mercado, sem desvalorização. Cuidou de cada detalhe do contrato até o repasse final."
+          </p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="Rodrigo Albuquerque">
+            <div>
+              <strong>Rodrigo Albuquerque</strong>
+              <span>Investidor Imobiliário</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <p class="testimonial-body">
+            "Estávamos com muito receio por ser nosso primeiro imóvel. O Cleytinho teve uma paciência admirável, nos levou para visitar 6 opções e encontrou o apartamento dos nossos sonhos perto do metrô. Nota mil!"
+          </p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80" alt="Juliana e Marcos Lima">
+            <div>
+              <strong>Juliana & Marcos Lima</strong>
+              <span>Compraram Apartamento em Perdizes</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq-section">
+    <div class="container faq-container">
+      <div class="section-header text-center">
+        <span class="section-tag"><i class="fa-solid fa-circle-question"></i> Tire Suas Dúvidas</span>
+        <h2 class="section-title">Perguntas Frequentes</h2>
+      </div>
+
+      <div class="faq-accordion">
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Posso utilizar o saldo do FGTS na compra do imóvel?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Sim! O FGTS pode ser utilizado como entrada, amortização ou liquidação de financiamento habitacional, desde que você atenda aos requisitos do SFH (mínimo de 3 anos sob regime de FGTS e não possuir outro imóvel residencial financiado no mesmo município).</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Quanto custa a assessoria para o comprador?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Para quem está comprando, a consultoria do corretor é 100% gratuita! No mercado imobiliário brasileiro, os honorários de corretagem são de responsabilidade do vendedor do imóvel.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Quais documentos são exigidos para aprovar o crédito imobiliário?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>RG, CPF, Certidão de Estado Civil, Comprovante de Residência atualizado e Comprovantes de Renda (holerites + Declaração de Imposto de Renda com recibo para assalariados, ou extratos bancários + DIRPF para autônomos e empresários).</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Vocês atendem aos sábados e domingos para visitas?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Com certeza. Sabemos que sua semana é corrida, por isso agendamos tours privativos inclusive aos sábados, domingos e feriados mediante agendamento prévio.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Schedule Visit Section -->
+  <section class="contact-section" id="contato">
+    <div class="container">
+      <div class="contact-card">
+        <div class="contact-header text-center">
+          <span class="section-tag text-gold"><i class="fa-solid fa-envelope"></i> Contato VIP</span>
+          <h2 class="section-title text-white">Pronto Para Dar o Próximo Passo?</h2>
+          <p class="section-desc text-slate">Preencha o formulário rápido abaixo para receber um atendimento personalizado pelo WhatsApp.</p>
+        </div>
+
+        <form class="contact-form" id="leadForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label><i class="fa-solid fa-user"></i> Seu Nome Completo</label>
+              <input type="text" id="leadName" placeholder="Ex: Roberto Silva" required>
+            </div>
+            <div class="form-group">
+              <label><i class="fa-brands fa-whatsapp"></i> Seu WhatsApp</label>
+              <input type="tel" id="leadPhone" placeholder="Ex: (11) 98765-4321" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label><i class="fa-solid fa-house"></i> O que você procura?</label>
+              <select id="leadObjective">
+                <option value="Comprar Casa em Condomínio">Comprar Casa em Condomínio</option>
+                <option value="Comprar Apartamento">Comprar Apartamento</option>
+                <option value="Comprar Cobertura">Comprar Cobertura</option>
+                <option value="Lançamento na Planta">Investir em Lançamento na Planta</option>
+                <option value="Simulação de Financiamento">Simulação de Financiamento</option>
+                <option value="Vender meu Imóvel">Quero Vender meu Imóvel</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label><i class="fa-regular fa-calendar"></i> Melhor Dia para Visita</label>
+              <input type="date" id="leadDate">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label><i class="fa-solid fa-comment-dots"></i> Observações ou Preferências (Opcional)</label>
+            <textarea id="leadNotes" rows="3" placeholder="Ex: Preferência por condomínio com quadra de tênis e no mínimo 3 suítes..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-emerald btn-lg w-100">
+            <i class="fa-brands fa-whatsapp"></i> Enviar Informações e Falar com Cleytinho
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container footer-content">
+      <div class="footer-col brand-col">
+        <div class="brand-logo footer-logo">
+          <div class="logo-mark"><i class="fa-solid fa-city"></i></div>
+          <div class="logo-text">
+            <span class="brand-name">CLEYTINHO</span>
+            <span class="brand-sub">IMÓVEIS & ASSESSORIA</span>
+          </div>
+        </div>
+        <p class="footer-about">
+          Intermediação imobiliária de excelência, gestão jurídica de contratos e correspondente bancário das principais instituições financeiras.
+        </p>
+        <div class="creci-badge">
+          <i class="fa-solid fa-shield-halved"></i> Registro Profissional: <strong>CRECI 184.290-F</strong>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#imoveis">Imóveis Disponíveis</a></li>
+          <li><a href="#simulador">Simulador Habitacional</a></li>
+          <li><a href="#diferenciais">Nossos Diferenciais</a></li>
+          <li><a href="#sobre">Sobre o Corretor</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Tipos de Imóveis</h4>
+        <ul>
+          <li><a href="#imoveis">Casas em Condomínio Fechado</a></li>
+          <li><a href="#imoveis">Apartamentos Alto Padrão</a></li>
+          <li><a href="#imoveis">Coberturas Penthouse</a></li>
+          <li><a href="#imoveis">Lançamentos na Planta</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Atendimento</h4>
+        <p><i class="fa-solid fa-location-dot"></i> São Paulo - SP e Grande SP</p>
+        <p><i class="fa-solid fa-phone"></i> (11) 99999-8888</p>
+        <p><i class="fa-regular fa-clock"></i> Seg a Sáb: 08h às 20h</p>
+        <div class="social-links">
+          <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://youtube.com" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://wa.me/5511999998888" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© 2026 Cleytinho Imóveis. Todos os direitos reservados. CRECI 184.290-F.</p>
+        <p class="tech-tag">Desenvolvido com Alta Performance & Foco em Conversão</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Action Button -->
+  <a href="https://wa.me/5511999998888?text=Ol%C3%A1%20Cleytinho!%20Estou%20no%20site%20e%20gostaria%20de%20tirar%20uma%20d%C3%BAvida%20sobre%20um%20im%C3%B3vel." target="_blank" class="floating-whatsapp" aria-label="Atendimento no WhatsApp">
+    <div class="wa-tooltip">
+      <strong>Cleytinho Online</strong>
+      <span>Tire suas dúvidas agora</span>
+    </div>
+    <div class="wa-icon-box">
+      <i class="fa-brands fa-whatsapp"></i>
+      <span class="badge-online"></span>
+    </div>
+  </a>
+
+  <!-- Property Quick View Modal -->
+  <div class="modal-overlay" id="propertyModal">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose">&times;</button>
+      <div id="modalBody">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

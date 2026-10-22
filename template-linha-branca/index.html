@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Metatags de SEO Primárias -->
+  <title>{{NOME_EMPRESA}} — Conserto de Geladeira e Máquinas de Lavar em {{CIDADE}}</title>
+  <meta name="description" content="Conserto de geladeiras, freezers e máquinas de lavar em {{CIDADE}} e região. {{ANOS_MERCADO}} anos de mercado, garantia de {{GARANTIA_MESES}} meses e cobrimos qualquer orçamento. Atendimento em domicílio!" />
+  <meta name="keywords" content="conserto de geladeira {{CIDADE}}, assistencia tecnica brastemp {{CIDADE}}, conserto maquina de lavar {{CIDADE}}, conserto freezer {{CIDADE}}, {{NOME_EMPRESA}}" />
+  <meta name="author" content="{{NOME_EMPRESA}}" />
+  <meta name="robots" content="index, follow" />
+
+  <link rel="icon" type="image/jpeg" href="logo.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HomeAndConstructionBusiness",
+    "name": "{{NOME_EMPRESA}}",
+    "telephone": "{{TELEFONE_INTERNACIONAL}}",
+    "priceRange": "$$",
+    "description": "Assistência técnica especializada no conserto de geladeiras, freezers e máquinas de lavar roupas em {{CIDADE}}.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "{{ENDERECO_COMPLETO}}",
+      "addressLocality": "{{CIDADE}}",
+      "addressRegion": "{{ESTADO_SIGLA}}",
+      "postalCode": "{{CEP}}",
+      "addressCountry": "BR"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-left">
+        <span class="live-pulse"></span>
+        <span>Plantão de Atendimento em Domicílio em {{CIDADE}} e Região</span>
+      </div>
+      <div class="top-bar-right">
+        <span class="top-badge"><i class="fas fa-shield-alt"></i> Garantia de {{GARANTIA_MESES}} Meses</span>
+        <span class="top-badge"><i class="fas fa-credit-card"></i> Parcelamos no Cartão</span>
+        <a href="tel:{{TELEFONE_NUMEROS}}" class="top-phone"><i class="fas fa-phone-alt"></i> {{TELEFONE_FORMATADO}}</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header id="header" class="header">
+    <div class="container header-inner">
+      <a href="#inicio" class="logo-link">
+        <img src="logo.jpg" alt="Logo {{NOME_EMPRESA}}" class="logo-img" />
+        <div class="logo-text">
+          <span class="brand-title">{{NOME_EMPRESA}}</span>
+          <span class="brand-subtitle">Assistência Técnica Linha Branca</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#inicio" class="nav-link">Início</a>
+        <a href="#servicos" class="nav-link">Serviços</a>
+        <a href="#diferenciais" class="nav-link">Diferenciais</a>
+        <a href="#marcas" class="nav-link">Marcas</a>
+        <a href="#diagnostico" class="nav-link">Simular Defeito</a>
+        <a href="#depoimentos" class="nav-link">Avaliações</a>
+        <a href="#contato" class="nav-link">Contato</a>
+      </nav>
+
+      <div class="header-action">
+        <a href="https://wa.me/{{WHATSAPP_NUMEROS}}?text=Olá! Vim pelo site e gostaria de um orçamento." target="_blank" rel="noopener" class="btn btn-whatsapp-header">
+          <i class="fab fa-whatsapp"></i>
+          <span>Pedir Orçamento</span>
+        </a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="inicio" class="hero-section">
+      <div class="hero-bg-overlay"></div>
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badges">
+            <span class="badge badge-accent"><i class="fas fa-award"></i> {{ANOS_MERCADO}} Anos de Tradição</span>
+            <span class="badge badge-star"><i class="fas fa-star"></i> {{NOTA_GOOGLE}} no Google ({{TOTAL_AVALIACOES}} Avaliações)</span>
+          </div>
+
+          <h1 class="hero-title">
+            Sua Geladeira Parou ou a <br />
+            <span class="text-highlight">Máquina de Lavar Travou?</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Conserto rápido em domicílio com técnicos especializados. Oferecemos <strong>{{GARANTIA_MESES}} meses de garantia</strong>, cobrimos orçamentos comprovados e parcelamos no cartão de crédito!
+          </p>
+
+          <div class="hero-ctas">
+            <a href="https://wa.me/{{WHATSAPP_NUMEROS}}?text=Olá! Preciso de conserto urgente para meu eletrodoméstico." target="_blank" rel="noopener" class="btn btn-primary-wa pulse-btn">
+              <i class="fab fa-whatsapp"></i>
+              <span>Chamar Técnico no WhatsApp</span>
+            </a>
+            <a href="#diagnostico" class="btn btn-secondary-outline">
+              <i class="fas fa-tools"></i>
+              <span>Simular Diagnóstico</span>
+            </a>
+          </div>
+
+          <div class="hero-guarantees">
+            <div class="guarantee-item"><i class="fas fa-check-circle"></i><span>Atendimento em Domicílio</span></div>
+            <div class="guarantee-item"><i class="fas fa-shield-alt"></i><span>Garantia de {{GARANTIA_MESES}} Meses</span></div>
+            <div class="guarantee-item"><i class="fas fa-tags"></i><span>Cobrimos Orçamentos</span></div>
+            <div class="guarantee-item"><i class="fas fa-credit-card"></i><span>Parcelamos no Cartão</span></div>
+          </div>
+        </div>
+
+        <div class="hero-card-wrapper">
+          <div class="quick-contact-card">
+            <div class="brand-chip">ATENDIMENTO EXPRESS</div>
+            <h3>Socorro Rápido em {{CIDADE}}</h3>
+            <p>Não deixe seus alimentos estragarem ou as roupas acumularem.</p>
+            <div class="quick-features">
+              <div class="q-feat">
+                <div class="q-icon"><i class="fas fa-truck"></i></div>
+                <div><strong>{{CIDADE}} e Região</strong><p>Técnico com horário marcado no local</p></div>
+              </div>
+              <div class="q-feat">
+                <div class="q-icon"><i class="fas fa-medal"></i></div>
+                <div><strong>Peças Originais</strong><p>Garantia real e total segurança</p></div>
+              </div>
+            </div>
+            <div class="quick-phone-box">
+              <span>Fale direto no WhatsApp:</span>
+              <a href="https://wa.me/{{WHATSAPP_NUMEROS}}" target="_blank" class="quick-phone-number">
+                <i class="fab fa-whatsapp"></i> {{TELEFONE_FORMATADO}}
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Métricas -->
+    <section class="metrics-bar">
+      <div class="container metrics-grid">
+        <div class="metric-box"><span class="metric-num">{{ANOS_MERCADO}}</span><span class="metric-unit">Anos</span><p class="metric-label">Tradição e Reputação</p></div>
+        <div class="metric-box"><span class="metric-num">{{GARANTIA_MESES}}</span><span class="metric-unit">Meses</span><p class="metric-label">Garantia por Escrito</p></div>
+        <div class="metric-box"><span class="metric-num">{{NOTA_GOOGLE}}</span><span class="metric-unit">★</span><p class="metric-label">Nota no Google Meu Negócio</p></div>
+        <div class="metric-box"><span class="metric-num">100%</span><span class="metric-unit">Domicílio</span><p class="metric-label">Conserto no Seu Endereço</p></div>
+      </div>
+    </section>
+
+    <!-- Marcas -->
+    <section id="marcas" class="brands-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Especialização</span>
+          <h2 class="section-title">Especialistas nas Principais Marcas</h2>
+          <p class="section-desc">Atendimento especializado em Brastemp, Consul, Electrolux, Samsung, LG e demais fabricantes.</p>
+        </div>
+        <div class="brands-grid">
+          <div class="brand-card featured-brand"><h3>BRASTEMP</h3><p>Lavadoras e Geladeiras Frost Free</p></div>
+          <div class="brand-card featured-brand"><h3>CONSUL</h3><p>Refrigeradores, Freezers e Lavadoras</p></div>
+          <div class="brand-card"><h3>Electrolux</h3><p>Linha completa de refrigeração e lavagem</p></div>
+          <div class="brand-card"><h3>Samsung</h3><p>Modelos Digital Inverter e Lava & Seca</p></div>
+          <div class="brand-card"><h3>LG</h3><p>Refrigeradores e Lavadoras Smart</p></div>
+          <div class="brand-card"><h3>Panasonic</h3><p>Tecnologia Econavi e Inverter</p></div>
+          <div class="brand-card"><h3>Midea</h3><p>Freezers, Adegas e Refrigeradores</p></div>
+          <div class="brand-card"><h3>Demais Marcas</h3><p>Manutenção completa linha branca</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="services-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Serviços</span>
+          <h2 class="section-title">O Que Consertamos</h2>
+          <p class="section-desc">Atendimento ágil em domicílio com garantia por escrito.</p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-badge">Destaque</div>
+            <div class="service-icon-box"><i class="fas fa-snowflake"></i></div>
+            <h3 class="service-name">Conserto de Geladeiras</h3>
+            <p class="service-text">Geladeira não gela embaixo, motor estalando, vazamento ou placa queimada.</p>
+            <ul class="service-list">
+              <li><i class="fas fa-check"></i> Modelos Frost Free, Inverse e Duplex</li>
+              <li><i class="fas fa-check"></i> Troca de sensores, resistência e borrachas</li>
+            </ul>
+            <a href="https://wa.me/{{WHATSAPP_NUMEROS}}?text=Olá! Preciso de conserto para minha GELADEIRA." target="_blank" class="btn btn-service-wa">
+              <span>Orçamento para Geladeira</span><i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-badge">Urgência</div>
+            <div class="service-icon-box"><i class="fas fa-sync-alt"></i></div>
+            <h3 class="service-name">Conserto de Máquinas de Lavar</h3>
+            <p class="service-text">Não centrifuga, vazando água, barulho alto ao rodar ou travada.</p>
+            <ul class="service-list">
+              <li><i class="fas fa-check"></i> Troca de rolamentos, retentor e correia</li>
+              <li><i class="fas fa-check"></i> Reparo de placa, bomba d'água e atuador</li>
+            </ul>
+            <a href="https://wa.me/{{WHATSAPP_NUMEROS}}?text=Olá! Preciso de conserto para minha MÁQUINA DE LAVAR." target="_blank" class="btn btn-service-wa">
+              <span>Orçamento para Lavadora</span><i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Simulador -->
+    <section id="diagnostico" class="diagnosis-section">
+      <div class="container">
+        <div class="diagnosis-card">
+          <div class="diagnosis-header">
+            <span class="section-tag-light">Triagem Online</span>
+            <h2>Simulador de Diagnóstico Rápido</h2>
+            <p>Selecione as opções e envie direto para o WhatsApp do técnico:</p>
+          </div>
+
+          <form id="diagnosisForm" class="diagnosis-form">
+            <div class="form-group">
+              <label class="form-label"><i class="fas fa-tv"></i> 1. Qual equipamento precisa de conserto?</label>
+              <div class="pill-group" data-group="aparelho">
+                <button type="button" class="pill-btn active" data-val="Geladeira">Geladeira</button>
+                <button type="button" class="pill-btn" data-val="Máquina de Lavar">Máquina de Lavar</button>
+                <button type="button" class="pill-btn" data-val="Freezer">Freezer</button>
+                <button type="button" class="pill-btn" data-val="Outro">Outro</button>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label"><i class="fas fa-tag"></i> 2. Marca do aparelho?</label>
+              <div class="pill-group" data-group="marca">
+                <button type="button" class="pill-btn active" data-val="Brastemp">Brastemp</button>
+                <button type="button" class="pill-btn" data-val="Consul">Consul</button>
+                <button type="button" class="pill-btn" data-val="Electrolux">Electrolux</button>
+                <button type="button" class="pill-btn" data-val="Samsung / LG">Samsung / LG</button>
+                <button type="button" class="pill-btn" data-val="Outra">Outra</button>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label"><i class="fas fa-exclamation-triangle"></i> 3. Sintoma principal?</label>
+              <div class="pill-group" data-group="defeito">
+                <button type="button" class="pill-btn active" data-val="Não gela nada">Não gela nada</button>
+                <button type="button" class="pill-btn" data-val="Só gela em cima">Só gela em cima</button>
+                <button type="button" class="pill-btn" data-val="Não centrifuga">Não centrifuga</button>
+                <button type="button" class="pill-btn" data-val="Barulho muito alto">Barulho muito alto</button>
+                <button type="button" class="pill-btn" data-val="Vazando água">Vazando água</button>
+              </div>
+            </div>
+
+            <div class="form-submit-box">
+              <button type="button" id="btnEnviarDiagnostico" class="btn btn-submit-wa pulse-btn" data-phone="{{WHATSAPP_NUMEROS}}">
+                <i class="fab fa-whatsapp"></i>
+                <span>Enviar para o Técnico no WhatsApp</span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contact-section">
+      <div class="container">
+        <div class="contact-card">
+          <div class="contact-info">
+            <span class="section-tag-light">Atendimento</span>
+            <h2>{{NOME_EMPRESA}}</h2>
+            <p>Atendimento rápido em domicílio em {{CIDADE}} e região metropolitana.</p>
+            <div class="contact-details">
+              <div class="contact-row"><div class="c-icon"><i class="fas fa-map-marker-alt"></i></div><div><strong>Endereço:</strong><p>{{ENDERECO_COMPLETO}}</p></div></div>
+              <div class="contact-row"><div class="c-icon"><i class="fab fa-whatsapp"></i></div><div><strong>WhatsApp:</strong><p><a href="https://wa.me/{{WHATSAPP_NUMEROS}}" target="_blank">{{TELEFONE_FORMATADO}}</a></p></div></div>
+            </div>
+          </div>
+          <div class="contact-map-wrapper">
+            <div class="map-card-box">
+              <img src="logo.jpg" alt="Logo {{NOME_EMPRESA}}" class="map-logo-thumb" />
+              <h4>Base Operacional</h4>
+              <p>{{CIDADE}} — Atendimento ágil em todos os bairros.</p>
+              <a href="{{LINK_GOOGLE_MAPS}}" target="_blank" class="btn btn-secondary-outline btn-block">
+                <i class="fas fa-directions"></i> Ver Rotas no Google Maps
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-bottom-inner">
+      <p>&copy; 2026 {{NOME_EMPRESA}}. Todos os direitos reservados.</p>
+      <p>{{CIDADE}} — Assistência Técnica Linha Branca</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/{{WHATSAPP_NUMEROS}}?text=Olá! Vim pelo site." target="_blank" class="floating-whatsapp" aria-label="WhatsApp">
+    <div class="wa-icon-circle"><i class="fab fa-whatsapp"></i></div>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>

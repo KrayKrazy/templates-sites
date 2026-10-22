@@ -1,0 +1,112 @@
+/* ==========================================================================
+   ASAS DA BELEZA - EMBELEZAMENTO & ESTÉTICA
+   Design System: Rose Gold, Champagne & Warm Ivory Luxury Palette
+   ========================================================================== */
+
+:root {
+  --primary-rose: #d48386;
+  --primary-rose-dark: #b76e79;
+  --primary-rose-light: #e5989b;
+  --primary-gold: #c59b27;
+  --primary-gold-light: #e0be5d;
+  --accent-cream: #fdfbf9;
+  --accent-blush: #fcf5f3;
+  --text-dark: #241c1d;
+  --text-muted: #6e5d5e;
+  --whatsapp-green: #25d366;
+  --whatsapp-dark: #128c7e;
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+}
+
+/* Custom Gradient Texts */
+.rose-gold-gradient-text {
+  background: linear-gradient(135deg, #b76e79 0%, #e0be5d 50%, #d48386 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.rose-gold-bg {
+  background: linear-gradient(135deg, #d48386 0%, #e0be5d 50%, #b76e79 100%);
+}
+
+.rose-gold-hover:hover {
+  background: linear-gradient(135deg, #e5989b 0%, #ecd489 50%, #d48386 100%);
+}
+
+/* Glassmorphism Elements */
+.glass-nav {
+  background: rgba(253, 251, 249, 0.92);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(212, 131, 134, 0.20);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.90);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(212, 131, 134, 0.15);
+}
+
+/* Soft Pulse Animations */
+@keyframes softPulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.6);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
+  }
+}
+
+.whatsapp-pulse {
+  animation: softPulse 2.4s infinite;
+}
+
+/* Wing Float Animation */
+@keyframes wingFloat {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.wing-float {
+  animation: wingFloat 4s ease-in-out infinite;
+}
+
+/* Accordion Smooth Transitions */
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease-out;
+}
+
+.accordion-content.open {
+  transition: max-height 0.45s ease-in;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #fdfbf9;
+}
+::-webkit-scrollbar-thumb {
+  background: #e5989b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d48386;
+}

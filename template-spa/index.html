@@ -1,0 +1,1605 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clínica Hágata SPA & Estética | O 1º Head Spa de Águas Lindas e Região</title>
+
+  <!-- SEO & Metatags de Conversão -->
+  <meta name="description" content="Clínica Hágata SPA & Estética: O 1º e exclusivo HEAD SPA de Águas Lindas de Goiás. Day SPA Urbano, Massagens com Pedras Quentes, Clareamento Íntimo & Foliculite, Micropigmentação e Celebrações a Dois. 5.0 estrelas no Google. Agende sua experiência!">
+  <meta name="keywords" content="head spa aguas lindas, spa aguas lindas de goias, clinica hagata spa e estetica, clareamento intimo aguas lindas, massagem relaxante aguas lindas, day spa aguas lindas, dia da noiva aguas lindas, micropigmentacao labial aguas lindas">
+  <meta name="author" content="Clínica Hágata SPA & Estética">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Redes Sociais -->
+  <meta property="og:type" content="business.business">
+  <meta property="og:title" content="Clínica Hágata SPA & Estética | O 1º Head Spa de Águas Lindas">
+  <meta property="og:description" content="Desconecte do mundo e viva uma experiência sensorial inesquecível. Rituais de Head Spa japonês e tailandês, Day SPA, estética íntima e celebrações especiais.">
+  <meta property="og:image" content="Instagram/logo.webp">
+  <meta property="og:url" content="https://hagata-spa.vercel.app">
+  <meta property="og:locale" content="pt_BR">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/webp" href="Instagram/logo.webp">
+
+  <!-- Fontes Google (Playfair Display + Plus Jakarta Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            emerald: {
+              950: '#0a1f14',
+              900: '#102d1d',
+              800: '#163a29',
+              700: '#1e4e37',
+              600: '#29684b',
+              500: '#388562',
+              100: '#e2ede7',
+              50: '#f0f7f3'
+            },
+            gold: {
+              300: '#f4e5c8',
+              400: '#e5c378',
+              500: '#d4af37',
+              600: '#c5a059',
+              700: '#997836'
+            },
+            cream: '#fbf9f5',
+            sand: '#f5f0e6'
+          },
+          fontFamily: {
+            serif: ['Playfair Display', 'Georgia', 'serif'],
+            sans: ['Plus Jakarta Sans', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Schema.org JSON-LD (SEO Local para Day Spa & Head Spa) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "DaySpa",
+    "name": "Clínica Hágata SPA e Estética",
+    "image": "Instagram/logo.webp",
+    "telephone": "+55-61-99357-7982",
+    "url": "https://hagata-spa.vercel.app",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Quadra 49 lote 2/4 loja 104 Jardim Pérola 2",
+      "addressLocality": "Águas Lindas de Goiás",
+      "addressRegion": "GO",
+      "postalCode": "72910-000",
+      "addressCountry": "BR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -15.7446056,
+      "longitude": -48.2638879
+    },
+    "hasMap": "https://maps.google.com/?cid=6866904128532474124",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "opens": "09:00",
+        "closes": "19:00"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "54",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "priceRange": "$$",
+    "description": "O primeiro HEAD SPA de Águas Lindas e região. Clínica de estética e spa de saúde com rituais de descompressão, massagens relaxantes, clareamento íntimo, spa casal e micropigmentação."
+  }
+  </script>
+</head>
+<body class="bg-cream text-neutral-800 antialiased selection:bg-gold-500 selection:text-emerald-950">
+
+  <!-- =======================================================================
+       BARRA DE AVISO / STATUS DE ATENDIMENTO
+       ======================================================================= -->
+  <div class="bg-emerald-950 border-b border-gold-500/20 text-gold-300 text-xs py-2 px-4 text-center tracking-wide font-medium">
+    <div class="max-w-7xl mx-auto flex items-center justify-center gap-3">
+      <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+      <span>🌿 O 1º Head Spa de Águas Lindas & Região • Atendimento Exclusivo com Hora Marcada</span>
+      <span class="hidden md:inline">• 📲 WhatsApp Direto: (61) 99357-7982</span>
+    </div>
+  </div>
+
+  <!-- =======================================================================
+       HEADER / NAVBAR COM DESIGN DE LUXO
+       ======================================================================= -->
+  <header id="siteHeader" class="fixed top-8 left-0 right-0 z-50 transition-all duration-300 bg-transparent py-4 px-4 md:px-8">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      
+      <!-- Logotipo Oficial da Clínica Hágata -->
+      <a href="#inicio" class="flex items-center gap-3 group">
+        <div class="w-12 h-12 md:w-14 md:h-14 rounded-full overflow-hidden border border-gold-400/40 p-0.5 shadow-md bg-emerald-900 flex-shrink-0 group-hover:border-gold-400 transition-all">
+          <img src="Instagram/logo.webp" alt="Logotipo Clínica Hágata SPA e Estética" class="w-full h-full object-cover">
+        </div>
+        <div class="text-left">
+          <span class="font-serif text-lg md:text-2xl font-bold tracking-wider text-white block leading-tight group-hover:text-gold-300 transition-colors">
+            HÁGATA
+          </span>
+          <span class="text-[10px] md:text-xs text-gold-400 tracking-[0.2em] uppercase font-medium block">
+            Clínica SPA & Estética
+          </span>
+        </div>
+      </a>
+
+      <!-- Menu Desktop -->
+      <nav class="hidden lg:flex items-center gap-7 bg-emerald-900/80 backdrop-blur-md px-6 py-2.5 rounded-full border border-gold-500/20 shadow-lg text-sm text-neutral-200">
+        <a href="#inicio" class="hover:text-gold-300 transition-colors">Início</a>
+        <a href="#headspa" class="hover:text-gold-300 transition-colors flex items-center gap-1 font-semibold text-gold-400">
+          <span>Head Spa</span>
+          <span class="text-[9px] bg-gold-500 text-emerald-950 px-1.5 py-0.5 rounded font-bold">1º da Região</span>
+        </a>
+        <a href="#servicos" class="hover:text-gold-300 transition-colors">Rituais & Day Spa</a>
+        <a href="#experiencias" class="hover:text-gold-300 transition-colors">Celebrações a Dois</a>
+        <a href="#simulador" class="hover:text-gold-300 transition-colors">Simulador</a>
+        <a href="#galeria" class="hover:text-gold-300 transition-colors">Galeria</a>
+        <a href="#avaliacoes" class="hover:text-gold-300 transition-colors">Avaliações</a>
+        <a href="#contato" class="hover:text-gold-300 transition-colors">Localização</a>
+      </nav>
+
+      <!-- Botão de Ação Direta -->
+      <div class="flex items-center gap-3">
+        <a href="https://wa.me/5561993577982?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20experi%C3%AAncia%20na%20Cl%C3%ADnica%20H%C3%A1gata%20SPA." 
+           target="_blank" 
+           rel="noopener"
+           class="hidden sm:inline-flex items-center gap-2 btn-gold text-xs md:text-sm px-5 py-2.5 rounded-full">
+          <i data-lucide="calendar" class="w-4 h-4"></i>
+          <span>Agendar Experiência</span>
+        </a>
+
+        <!-- Botão Menu Mobile -->
+        <button id="mobileMenuBtn" aria-label="Abrir Menu" class="lg:hidden w-11 h-11 rounded-full bg-emerald-900/90 text-gold-400 border border-gold-500/30 flex items-center justify-center">
+          <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- =======================================================================
+       DRAWER MOBILE
+       ======================================================================= -->
+  <div id="mobileBackdrop" class="fixed inset-0 bg-black/70 backdrop-blur-sm z-50 hidden transition-opacity"></div>
+  <aside id="mobileDrawer" class="fixed top-0 right-0 w-80 max-w-[85%] h-full bg-emerald-950 text-white z-50 p-6 flex flex-col justify-between transform translate-x-full transition-transform duration-300 border-l border-gold-500/30">
+    <div>
+      <div class="flex items-center justify-between pb-6 border-b border-white/10">
+        <div class="flex items-center gap-3">
+          <img src="Instagram/logo.webp" alt="Logo Hágata" class="w-10 h-10 rounded-full border border-gold-400">
+          <div>
+            <span class="font-serif font-bold text-lg text-white block">HÁGATA</span>
+            <span class="text-[10px] text-gold-400 uppercase tracking-widest">SPA & Estética</span>
+          </div>
+        </div>
+        <button id="mobileMenuClose" aria-label="Fechar Menu" class="text-neutral-400 hover:text-white p-2">
+          <i data-lucide="x" class="w-6 h-6"></i>
+        </button>
+      </div>
+
+      <nav class="flex flex-col gap-4 mt-8 text-base">
+        <a href="#inicio" class="mobile-nav-link py-2 border-b border-white/5 hover:text-gold-400">Início</a>
+        <a href="#headspa" class="mobile-nav-link py-2 border-b border-white/5 hover:text-gold-400 flex items-center justify-between text-gold-300 font-medium">
+          <span>Head Spa Tailandês</span>
+          <span class="text-[10px] bg-gold-500 text-emerald-950 px-2 py-0.5 rounded font-bold">1º da Região</span>
+        </a>
+        <a href="#servicos" class="mobile-nav-link py-2 border-b border-white/5 hover:text-gold-400">Rituais & Procedimentos</a>
+        <a href="#experiencias" class="mobile-nav-link py-2 border-b border-white/5 hover:text-gold-400">Celebrações & Casal</a>
+        <a href="#simulador" class="mobile-nav-link py-2 border-b border-white/5 hover:text-gold-400">Simulador de Agendamento</a>
+        <a href="#galeria" class="mobile-nav-link py-2 border-b border-white/5 hover:text-gold-400">Galeria de Fotos</a>
+        <a href="#avaliacoes" class="mobile-nav-link py-2 border-b border-white/5 hover:text-gold-400">Avaliações no Google</a>
+        <a href="#contato" class="mobile-nav-link py-2 hover:text-gold-400">Localização & Contato</a>
+      </nav>
+    </div>
+
+    <div class="pt-6 border-t border-white/10">
+      <a href="https://wa.me/5561993577982?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20na%20Cl%C3%ADnica%20H%C3%A1gata." target="_blank" rel="noopener" class="w-full btn-whatsapp py-3 rounded-xl flex items-center justify-center gap-2 text-sm font-bold">
+        <i data-lucide="message-circle" class="w-5 h-5"></i>
+        <span>Conversar no WhatsApp</span>
+      </a>
+      <p class="text-center text-xs text-neutral-400 mt-3 font-light">
+        Águas Lindas de Goiás • (61) 99357-7982
+      </p>
+    </div>
+  </aside>
+
+  <!-- =======================================================================
+       HERO SECTION - EXPERIÊNCIA IMERSIVA & SERENIDADE
+       ======================================================================= -->
+  <section id="inicio" class="relative min-h-screen flex items-center justify-center pt-28 pb-16 px-4 md:px-8 bg-emerald-950 overflow-hidden">
+    <!-- Imagem de Fundo com Overlay Gradiente de Luxo -->
+    <div class="absolute inset-0 z-0">
+      <img src="Instagram/imgi_46_503027351_537212302657988_1680898785177841437_n.jpg" 
+           alt="Ambiente Relaxante Clínica Hágata SPA" 
+           class="w-full h-full object-cover object-center scale-105 filter brightness-50 contrast-125">
+      <div class="absolute inset-0 emerald-hero-overlay"></div>
+    </div>
+
+    <!-- Conteúdo Central Hero -->
+    <div class="relative z-10 max-w-5xl mx-auto text-center text-white mt-6 md:mt-12">
+      
+      <!-- Selo de Autoridade & Exclusividade -->
+      <div class="inline-flex items-center gap-2.5 px-4 py-2 rounded-full glass-emerald mb-6 text-xs md:text-sm text-gold-300 font-medium">
+        <i data-lucide="sparkles" class="w-4 h-4 text-gold-400"></i>
+        <span>O 1º HEAD SPA de Águas Lindas & Região • 5.0 ★ no Google</span>
+      </div>
+
+      <!-- Headline de Alto Impacto Emocional -->
+      <h1 class="font-serif text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight md:leading-[1.15] mb-6">
+        Desconecte do mundo.<br>
+        <span class="gold-gradient-text italic font-normal">Reconecte com você.</span>
+      </h1>
+
+      <!-- Subtítulo -->
+      <p class="max-w-2xl mx-auto text-base sm:text-lg md:text-xl text-emerald-100/90 font-light leading-relaxed mb-10">
+        Um santuário sensorial criado para desacelerar a sua mente. Viva os rituais de águas milenares do Japão e Tailândia, massagens profundas e estética íntima de excelência.
+      </p>
+
+      <!-- Botões de Ação Principal -->
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-14">
+        <a href="#simulador" class="w-full sm:w-auto btn-gold px-8 py-4 rounded-full text-base font-bold flex items-center justify-center gap-3">
+          <span>Viver Essa Experiência</span>
+          <i data-lucide="arrow-right" class="w-5 h-5"></i>
+        </a>
+        <a href="#headspa" class="w-full sm:w-auto px-8 py-4 rounded-full text-base font-semibold border border-gold-400/40 text-gold-300 hover:bg-gold-500/10 hover:border-gold-400 transition-all flex items-center justify-center gap-2">
+          <i data-lucide="droplet" class="w-5 h-5 text-gold-400"></i>
+          <span>Conhecer o Head Spa</span>
+        </a>
+      </div>
+
+      <!-- Faixa de Confiança & Números -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto pt-8 border-t border-white/10 text-left">
+        <div class="p-3">
+          <div class="flex items-center gap-1 text-gold-400 mb-1">
+            <i data-lucide="star" class="w-4 h-4 fill-gold-400"></i>
+            <span class="font-bold text-white text-lg">5.0 / 5.0</span>
+          </div>
+          <p class="text-xs text-emerald-200/80">Nota máxima em 54 avaliações reais no Google</p>
+        </div>
+
+        <div class="p-3">
+          <div class="flex items-center gap-1 text-gold-400 mb-1">
+            <i data-lucide="droplets" class="w-4 h-4 text-gold-400"></i>
+            <span class="font-bold text-white text-lg">Pioneirismo</span>
+          </div>
+          <p class="text-xs text-emerald-200/80">1º Head Spa exclusivo do Japão e Tailândia na cidade</p>
+        </div>
+
+        <div class="p-3">
+          <div class="flex items-center gap-1 text-gold-400 mb-1">
+            <i data-lucide="shield-check" class="w-4 h-4 text-gold-400"></i>
+            <span class="font-bold text-white text-lg">Referência</span>
+          </div>
+          <p class="text-xs text-emerald-200/80">Especialista em Clareamento Íntimo & Foliculite</p>
+        </div>
+
+        <div class="p-3">
+          <div class="flex items-center gap-1 text-gold-400 mb-1">
+            <i data-lucide="heart" class="w-4 h-4 text-gold-400"></i>
+            <span class="font-bold text-white text-lg">+6.5k</span>
+          </div>
+          <p class="text-xs text-emerald-200/80">Seguidoras e clientes apaixonadas pelo autocuidado</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Indicador de Scroll Suave -->
+    <a href="#headspa" class="absolute bottom-6 left-1/2 -translate-x-1/2 text-gold-400/70 hover:text-gold-300 transition-colors animate-bounce flex flex-col items-center gap-1 text-xs tracking-widest uppercase">
+      <span>Deslize</span>
+      <i data-lucide="chevron-down" class="w-4 h-4"></i>
+    </a>
+  </section>
+
+  <!-- =======================================================================
+       DESTAQUE PRINCIPAL: O QUE É O HEAD SPA?
+       ======================================================================= -->
+  <section id="headspa" class="py-20 md:py-28 px-4 md:px-8 bg-sand/60 relative">
+    <div class="max-w-7xl mx-auto">
+      
+      <!-- Cabeçalho da Seção -->
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs uppercase tracking-[0.25em] text-emerald-800 font-bold block mb-3">
+          Exclusividade Regional
+        </span>
+        <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-emerald-950 mb-6">
+          O Primeiro <span class="gold-gradient-dark italic">HEAD SPA</span> de Águas Lindas
+        </h2>
+        <div class="ornament-line mb-6">
+          <i data-lucide="flower2" class="w-5 h-5 text-gold-600"></i>
+        </div>
+        <p class="text-base md:text-lg text-neutral-600 leading-relaxed font-light">
+          A técnica de relaxamento profundo que conquistou o Japão e a Tailândia agora está ao seu alcance. Uma fusão sublime entre terapia capilar botânica, arco de chuva contínua, aromaterapia e massagem crânio-cervical.
+        </p>
+      </div>
+
+      <!-- Grid com Imagens Reais do Procedimento e Benefícios -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+        
+        <!-- Coluna de Imagens Reais do Procedimento -->
+        <div class="lg:col-span-6 grid grid-cols-2 gap-4">
+          <div class="space-y-4">
+            <div class="image-zoom-card shadow-lg rounded-2xl overflow-hidden border border-emerald-900/10 relative">
+              <img src="Instagram/imgi_20_466926129_18452273836067337_3070347610378355457_n.jpg" 
+                   alt="Head Spa com Arco de Água Dourada na Clínica Hágata" 
+                   class="w-full h-64 md:h-80 object-cover">
+              <div class="absolute bottom-3 left-3 bg-emerald-950/80 backdrop-blur-sm text-gold-300 text-xs px-3 py-1 rounded-full border border-gold-500/30">
+                Arco Dourado de Água
+              </div>
+            </div>
+            <div class="image-zoom-card shadow-lg rounded-2xl overflow-hidden border border-emerald-900/10 relative">
+              <img src="Instagram/imgi_28_507919643_1374985947118487_6217859419977672303_n.jpg" 
+                   alt="Bandeja de Chá e Carta Boas-Vindas Head Spa" 
+                   class="w-full h-44 object-cover">
+              <div class="absolute bottom-3 left-3 bg-emerald-950/80 backdrop-blur-sm text-gold-300 text-xs px-3 py-1 rounded-full border border-gold-500/30">
+                Chá & Acolhimento
+              </div>
+            </div>
+          </div>
+
+          <div class="space-y-4 pt-6">
+            <div class="image-zoom-card shadow-lg rounded-2xl overflow-hidden border border-emerald-900/10 relative">
+              <img src="Instagram/imgi_34_504159745_1265145125203119_8945774024732281537_n.jpg" 
+                   alt="Massagem nos Ombros e Cervical durante o Head Spa" 
+                   class="w-full h-44 object-cover">
+              <div class="absolute bottom-3 left-3 bg-emerald-950/80 backdrop-blur-sm text-gold-300 text-xs px-3 py-1 rounded-full border border-gold-500/30">
+                Alívio de Tensões
+              </div>
+            </div>
+            <div class="image-zoom-card shadow-lg rounded-2xl overflow-hidden border border-emerald-900/10 relative">
+              <img src="Instagram/imgi_38_502244424_1221408703019911_6347549286031977537_n.jpg" 
+                   alt="Ambiente Relaxante de Head Spa com Iluminação Especial" 
+                   class="w-full h-64 md:h-80 object-cover">
+              <div class="absolute bottom-3 left-3 bg-emerald-950/80 backdrop-blur-sm text-gold-300 text-xs px-3 py-1 rounded-full border border-gold-500/30">
+                Cromoterapia & Paz
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Coluna de Explicação e Benefícios -->
+        <div class="lg:col-span-6 lg:pl-6">
+          <div class="inline-flex items-center gap-2 text-gold-700 font-semibold text-xs tracking-widest uppercase mb-3">
+            <i data-lucide="check-circle" class="w-4 h-4 text-gold-600"></i>
+            <span>Mais que Cuidar dos Fios: É Terapia para a Mente</span>
+          </div>
+
+          <h3 class="font-serif text-2xl sm:text-3xl font-bold text-emerald-950 mb-6">
+            "Ao contrário do que muitos pensam, não é só lavar o cabelo."
+          </h3>
+
+          <p class="text-neutral-600 text-base leading-relaxed mb-6 font-light">
+            O ritmo do dia a dia sobrecarrega nossa mente com estresse, telas e dores de cabeça. No Head Spa da Clínica Hágata, cada detalhe foi milimetricamente desenhado para desligar o seu sistema de alerta e induzir um estado de relaxamento profundo semelhante à meditação.
+          </p>
+
+          <!-- Lista de Pilares do Head Spa -->
+          <div class="space-y-4 mb-8">
+            <div class="flex items-start gap-3.5 p-3.5 rounded-xl bg-white/80 border border-emerald-900/5 shadow-sm">
+              <div class="w-9 h-9 rounded-full bg-emerald-100 text-emerald-800 flex items-center justify-center flex-shrink-0 mt-0.5">
+                <i data-lucide="droplet" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-emerald-950 text-sm">Cascata Dourada de Água Morna</h4>
+                <p class="text-xs text-neutral-600 font-light">O halo de água circular massageia ritmicamente o couro cabeludo, estimulando a liberação de serotonina e endorfina.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3.5 p-3.5 rounded-xl bg-white/80 border border-emerald-900/5 shadow-sm">
+              <div class="w-9 h-9 rounded-full bg-emerald-100 text-emerald-800 flex items-center justify-center flex-shrink-0 mt-0.5">
+                <i data-lucide="hand" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-emerald-950 text-sm">Massagem Crânio-Cervical & Ombros</h4>
+                <p class="text-xs text-neutral-600 font-light">Descompressão de nós de tensão na nuca, têmporas, trapézio e couro cabeludo, aliviando enxaquecas e insônia.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3.5 p-3.5 rounded-xl bg-white/80 border border-emerald-900/5 shadow-sm">
+              <div class="w-9 h-9 rounded-full bg-emerald-100 text-emerald-800 flex items-center justify-center flex-shrink-0 mt-0.5">
+                <i data-lucide="wind" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-emerald-950 text-sm">Aromaterapia & Óleos Essenciais Puros</h4>
+                <p class="text-xs text-neutral-600 font-light">Inalação de óleos calmantes que atuam diretamente no sistema límbico, promovendo sensação imediata de paz.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3.5 p-3.5 rounded-xl bg-white/80 border border-emerald-900/5 shadow-sm">
+              <div class="w-9 h-9 rounded-full bg-emerald-100 text-emerald-800 flex items-center justify-center flex-shrink-0 mt-0.5">
+                <i data-lucide="sparkle" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-emerald-950 text-sm">Desintoxicação & Fortalecimento Capilar</h4>
+                <p class="text-xs text-neutral-600 font-light">Limpeza profunda do bulbo capilar, oxigenação da raiz e tratamento contra caspa, oleosidade e queda.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- CTA de Agendamento do Head Spa -->
+          <div class="flex flex-col sm:flex-row items-center gap-4">
+            <a href="https://wa.me/5561993577982?text=Ol%C3%A1!%20Quero%20agendar%20o%20HEAD%20SPA%20na%20Cl%C3%ADnica%20H%C3%A1gata." target="_blank" rel="noopener" class="w-full sm:w-auto btn-gold px-7 py-3.5 rounded-full text-sm font-bold flex items-center justify-center gap-2">
+              <i data-lucide="calendar" class="w-4 h-4"></i>
+              <span>Agendar Minha Sessão de Head Spa</span>
+            </a>
+            <span class="text-xs text-neutral-500 font-medium">Sessões individuais de 60 a 90 min</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =======================================================================
+       CARDÁPIO DE RITUAIS & PROCEDIMENTOS
+       ======================================================================= -->
+  <section id="servicos" class="py-20 md:py-28 px-4 md:px-8 bg-cream relative">
+    <div class="max-w-7xl mx-auto">
+      
+      <!-- Título da Seção -->
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="text-xs uppercase tracking-[0.25em] text-gold-700 font-bold block mb-3">
+          Menu de Bem-Estar & Estética
+        </span>
+        <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-emerald-950 mb-6">
+          Escolha como deseja se sentir hoje.
+        </h2>
+        <div class="ornament-line mb-6">
+          <i data-lucide="gem" class="w-5 h-5 text-gold-600"></i>
+        </div>
+        <p class="text-neutral-600 font-light text-base md:text-lg">
+          Todos os procedimentos da Clínica Hágata são conduzidos com produtos de primeira linha, ambiente climatizado com cromoterapia e atendimento carinhoso e personalizado.
+        </p>
+      </div>
+
+      <!-- Filtros por Categoria -->
+      <div class="flex flex-wrap items-center justify-center gap-2 md:gap-3 mb-12">
+        <button class="service-filter-btn px-5 py-2.5 rounded-full text-xs md:text-sm font-semibold transition-all border border-gold bg-emerald-800 text-white shadow-sm" data-filter="all">
+          Todos os Rituais
+        </button>
+        <button class="service-filter-btn px-5 py-2.5 rounded-full text-xs md:text-sm font-semibold transition-all border border-emerald-800/10 bg-white text-emerald-900 hover:border-gold" data-filter="headspa">
+          Head Spa
+        </button>
+        <button class="service-filter-btn px-5 py-2.5 rounded-full text-xs md:text-sm font-semibold transition-all border border-emerald-800/10 bg-white text-emerald-900 hover:border-gold" data-filter="dayspa">
+          Day Spa & Massagens
+        </button>
+        <button class="service-filter-btn px-5 py-2.5 rounded-full text-xs md:text-sm font-semibold transition-all border border-emerald-800/10 bg-white text-emerald-900 hover:border-gold" data-filter="intimo">
+          Estética Íntima & Pele
+        </button>
+        <button class="service-filter-btn px-5 py-2.5 rounded-full text-xs md:text-sm font-semibold transition-all border border-emerald-800/10 bg-white text-emerald-900 hover:border-gold" data-filter="labios">
+          Lábios & Olhar
+        </button>
+      </div>
+
+      <!-- Grid de Cards de Rituais -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+        
+        <!-- Card 1: Head SPA Sensorial (Destaque) -->
+        <div class="service-card flex flex-col bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all" data-category="headspa">
+          <div class="relative h-56 overflow-hidden">
+            <img src="Instagram/imgi_20_466926129_18452273836067337_3070347610378355457_n.jpg" alt="Head Spa Terapêutico" class="w-full h-full object-cover">
+            <span class="absolute top-3 right-3 bg-emerald-950/85 backdrop-blur-sm text-gold-400 text-xs px-3 py-1 rounded-full font-bold border border-gold-500/30">
+              1º de Águas Lindas
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-xs uppercase tracking-wider text-gold-700 font-bold">Terapia Japonesa / Tailandesa</span>
+                <span class="text-xs text-neutral-500 flex items-center gap-1"><i data-lucide="clock" class="w-3.5 h-3.5"></i> 60 a 90 min</span>
+              </div>
+              <h3 class="font-serif text-xl font-bold text-emerald-950 mb-2">Head SPA Sensorial Completo</h3>
+              <p class="text-xs text-neutral-600 font-light leading-relaxed mb-4">
+                Arco dourado de chuva contínua, massagem crânio-cervical, esfoliação do couro cabeludo, aromaterapia relaxante e blend de chá especial na saída.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-neutral-100 flex items-center justify-between">
+              <div>
+                <span class="text-[11px] text-neutral-400 block">A partir de</span>
+                <span class="text-xl font-bold text-emerald-900">R$ 180,00</span>
+              </div>
+              <a href="https://wa.me/5561993577982?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20o%20Head%20SPA%20Sensorial." target="_blank" rel="noopener" class="btn-emerald px-4 py-2 rounded-full text-xs font-semibold flex items-center gap-1.5">
+                <span>Agendar</span>
+                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Day SPA Urbano -->
+        <div class="service-card flex flex-col bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all" data-category="dayspa">
+          <div class="relative h-56 overflow-hidden">
+            <img src="Instagram/imgi_46_503027351_537212302657988_1680898785177841437_n.jpg" alt="Day Spa Urbano Hágata" class="w-full h-full object-cover">
+            <span class="absolute top-3 right-3 bg-gold-500 text-emerald-950 text-xs px-3 py-1 rounded-full font-bold shadow-sm">
+              Mais Procurado
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-xs uppercase tracking-wider text-gold-700 font-bold">Imersão Total</span>
+                <span class="text-xs text-neutral-500 flex items-center gap-1"><i data-lucide="clock" class="w-3.5 h-3.5"></i> 1h a 3h</span>
+              </div>
+              <h3 class="font-serif text-xl font-bold text-emerald-950 mb-2">Day SPA Urbano Personalizado</h3>
+              <p class="text-xs text-neutral-600 font-light leading-relaxed mb-4">
+                Desconecte por até 3 horas com massagem relaxante, banhos de imersão com sais e flores, roupão macio, aromaterapia e degustação exclusiva.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-neutral-100 flex items-center justify-between">
+              <div>
+                <span class="text-[11px] text-neutral-400 block">A partir de</span>
+                <span class="text-xl font-bold text-emerald-900">R$ 197,00</span>
+              </div>
+              <a href="https://wa.me/5561993577982?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20Day%20SPA%20Urbano." target="_blank" rel="noopener" class="btn-emerald px-4 py-2 rounded-full text-xs font-semibold flex items-center gap-1.5">
+                <span>Agendar</span>
+                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: Massagem Relaxante com Pedras Quentes -->
+        <div class="service-card flex flex-col bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all" data-category="dayspa">
+          <div class="relative h-56 overflow-hidden">
+            <img src="Instagram/imgi_21_465082982_18450073870067337_5937559637693352755_n.jpg" alt="Massagem Pedras Quentes e Escalda-Pés" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-xs uppercase tracking-wider text-gold-700 font-bold">Termoterapia & Relax</span>
+                <span class="text-xs text-neutral-500 flex items-center gap-1"><i data-lucide="clock" class="w-3.5 h-3.5"></i> 60 min</span>
+              </div>
+              <h3 class="font-serif text-xl font-bold text-emerald-950 mb-2">Massagem com Pedras Quentes</h3>
+              <p class="text-xs text-neutral-600 font-light leading-relaxed mb-4">
+                Pedras vulcânicas aquecidas deslizam sobre pontos de tensão muscular, aliviando o cansaço crônico e restabelecendo a energia vital.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-neutral-100 flex items-center justify-between">
+              <div>
+                <span class="text-[11px] text-neutral-400 block">Valor da sessão</span>
+                <span class="text-xl font-bold text-emerald-900">R$ 110,00</span>
+              </div>
+              <a href="https://wa.me/5561993577982?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20Massagem%20com%20Pedras%20Quentes." target="_blank" rel="noopener" class="btn-emerald px-4 py-2 rounded-full text-xs font-semibold flex items-center gap-1.5">
+                <span>Agendar</span>
+                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4: Clareamento Íntimo & Foliculite -->
+        <div class="service-card flex flex-col bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all" data-category="intimo">
+          <div class="relative h-56 overflow-hidden">
+            <img src="Instagram/imgi_52_501902606_3077778559043279_1771691985185899407_n.jpg" alt="Tratamento Estética Íntima" class="w-full h-full object-cover">
+            <span class="absolute top-3 right-3 bg-emerald-950/85 backdrop-blur-sm text-gold-400 text-xs px-3 py-1 rounded-full font-bold border border-gold-500/30">
+              Especialidade da Casa
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-xs uppercase tracking-wider text-gold-700 font-bold">Estética Íntima Avançada</span>
+                <span class="text-xs text-neutral-500 flex items-center gap-1"><i data-lucide="shield-check" class="w-3.5 h-3.5"></i> Seguro & Discreto</span>
+              </div>
+              <h3 class="font-serif text-xl font-bold text-emerald-950 mb-2">Clareamento Íntimo & Foliculite</h3>
+              <p class="text-xs text-neutral-600 font-light leading-relaxed mb-4">
+                Protocolo exclusivo para redução de manchas escuras, marcas de atrito, manchas pós-depilação e foliculite em axilas, virilha e glúteos com total conforto e discrição.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-neutral-100 flex items-center justify-between">
+              <div>
+                <span class="text-[11px] text-neutral-400 block">Sessão avulsa / pacote</span>
+                <span class="text-xl font-bold text-emerald-900">R$ 250,00</span>
+              </div>
+              <a href="https://wa.me/5561993577982?text=Ol%C3%A1!%20Gostaria%20de%20uma%20avalia%C3%A7%C3%A3o%20para%20Clareamento%20%C3%8Dntimo." target="_blank" rel="noopener" class="btn-emerald px-4 py-2 rounded-full text-xs font-semibold flex items-center gap-1.5">
+                <span>Avaliação</span>
+                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5: Limpeza de Pele Profunda (Perfect Skin) -->
+        <div class="service-card flex flex-col bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all" data-category="intimo">
+          <div class="relative h-56 overflow-hidden">
+            <img src="Instagram/imgi_17_468156573_18454169578067337_7893878827694310995_n.jpg" alt="Limpeza de Pele Perfect Skin" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-xs uppercase tracking-wider text-gold-700 font-bold">Saúde Facial</span>
+                <span class="text-xs text-neutral-500 flex items-center gap-1"><i data-lucide="clock" class="w-3.5 h-3.5"></i> 90 min</span>
+              </div>
+              <h3 class="font-serif text-xl font-bold text-emerald-950 mb-2">Limpeza de Pele Perfect Skin</h3>
+              <p class="text-xs text-neutral-600 font-light leading-relaxed mb-4">
+                Remoção minuciosa de cravos e impurezas com técnica indolor, vapor de ozônio, alta frequência bactericida, máscara calmante e hidratação profunda.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-neutral-100 flex items-center justify-between">
+              <div>
+                <span class="text-[11px] text-neutral-400 block">Sessão completa</span>
+                <span class="text-xl font-bold text-emerald-900">R$ 150,00</span>
+              </div>
+              <a href="https://wa.me/5561993577982?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20Limpeza%20de%20Pele%20Perfect%20Skin." target="_blank" rel="noopener" class="btn-emerald px-4 py-2 rounded-full text-xs font-semibold flex items-center gap-1.5">
+                <span>Agendar</span>
+                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6: Micropigmentação Labial -->
+        <div class="service-card flex flex-col bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all" data-category="labios">
+          <div class="relative h-56 overflow-hidden">
+            <img src="Instagram/imgi_45_496989137_9757922914288575_2593170013093440194_n.jpg" alt="Micropigmentação Labial" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-xs uppercase tracking-wider text-gold-700 font-bold">Realce Labial</span>
+                <span class="text-xs text-neutral-500 flex items-center gap-1"><i data-lucide="sparkles" class="w-3.5 h-3.5"></i> Efeito Natural</span>
+              </div>
+              <h3 class="font-serif text-xl font-bold text-emerald-950 mb-2">Micropigmentação Labial</h3>
+              <p class="text-xs text-neutral-600 font-light leading-relaxed mb-4">
+                Coloração sutil efeito lip tint natural, definição de contorno e correção de assimetrias. Lábios corados, com aspecto saudável e radiante todos os dias.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-neutral-100 flex items-center justify-between">
+              <div>
+                <span class="text-[11px] text-neutral-400 block">Procedimento completo</span>
+                <span class="text-xl font-bold text-emerald-900">R$ 399,99</span>
+              </div>
+              <a href="https://wa.me/5561993577982?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20Micropigmenta%C3%A7%C3%A3o%20Labial." target="_blank" rel="noopener" class="btn-emerald px-4 py-2 rounded-full text-xs font-semibold flex items-center gap-1.5">
+                <span>Agendar</span>
+                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 7: SPA Facial & Revitalização -->
+        <div class="service-card flex flex-col bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all" data-category="intimo">
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-xs uppercase tracking-wider text-gold-700 font-bold">Express Glow</span>
+                <span class="text-xs text-neutral-500 flex items-center gap-1"><i data-lucide="clock" class="w-3.5 h-3.5"></i> 45 min</span>
+              </div>
+              <h3 class="font-serif text-xl font-bold text-emerald-950 mb-2">SPA Facial & Revitalização</h3>
+              <p class="text-xs text-neutral-600 font-light leading-relaxed mb-4">
+                Higienização suave, massagem drenante facial com pedras de jade e aplicação de máscara de colágeno para um viço imediato e descansado.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-neutral-100 flex items-center justify-between">
+              <div>
+                <span class="text-[11px] text-neutral-400 block">Sessão</span>
+                <span class="text-xl font-bold text-emerald-900">R$ 80,00</span>
+              </div>
+              <a href="https://wa.me/5561993577982?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20SPA%20Facial." target="_blank" rel="noopener" class="btn-emerald px-4 py-2 rounded-full text-xs font-semibold flex items-center gap-1.5">
+                <span>Agendar</span>
+                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 8: Design de Sobrancelhas & Microblading -->
+        <div class="service-card flex flex-col bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all" data-category="labios">
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-xs uppercase tracking-wider text-gold-700 font-bold">Harmonia do Rosto</span>
+                <span class="text-xs text-neutral-500 flex items-center gap-1"><i data-lucide="eye" class="w-3.5 h-3.5"></i> Personalizado</span>
+              </div>
+              <h3 class="font-serif text-xl font-bold text-emerald-950 mb-2">Design de Sobrancelhas</h3>
+              <p class="text-xs text-neutral-600 font-light leading-relaxed mb-4">
+                Mapeamento facial respeitando a anatomia natural do seu rosto. Opções com aplicação de henna ou técnica fio a fio para valorizar o seu olhar.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-neutral-100 flex items-center justify-between">
+              <div>
+                <span class="text-[11px] text-neutral-400 block">Design tradicional</span>
+                <span class="text-xl font-bold text-emerald-900">R$ 45,00</span>
+              </div>
+              <a href="https://wa.me/5561993577982?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20Design%20de%20Sobrancelhas." target="_blank" rel="noopener" class="btn-emerald px-4 py-2 rounded-full text-xs font-semibold flex items-center gap-1.5">
+                <span>Agendar</span>
+                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 9: Ventosaterapia Terapêutica -->
+        <div class="service-card flex flex-col bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all" data-category="dayspa">
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-xs uppercase tracking-wider text-gold-700 font-bold">Desintoxicação Muscular</span>
+                <span class="text-xs text-neutral-500 flex items-center gap-1"><i data-lucide="activity" class="w-3.5 h-3.5"></i> 45 min</span>
+              </div>
+              <h3 class="font-serif text-xl font-bold text-emerald-950 mb-2">Ventosaterapia Terapêutica</h3>
+              <p class="text-xs text-neutral-600 font-light leading-relaxed mb-4">
+                Técnica milenar que melhora a circulação sanguínea, desfaz nódulos de tensão nas costas e promove desintoxicação profunda dos tecidos.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-neutral-100 flex items-center justify-between">
+              <div>
+                <span class="text-[11px] text-neutral-400 block">Sessão</span>
+                <span class="text-xl font-bold text-emerald-900">R$ 80,00</span>
+              </div>
+              <a href="https://wa.me/5561993577982?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20Ventosaterapia." target="_blank" rel="noopener" class="btn-emerald px-4 py-2 rounded-full text-xs font-semibold flex items-center gap-1.5">
+                <span>Agendar</span>
+                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Nota de Personalização de Pacotes -->
+      <div class="mt-12 text-center p-6 rounded-2xl bg-sand border border-emerald-900/10 max-w-3xl mx-auto">
+        <p class="text-sm text-emerald-950 font-medium">
+          🌿 <strong>Deseja montar um pacote sob medida?</strong> Criamos combinações exclusivas de 1 a 3 horas com procedimentos à sua escolha, além de opções para presentear quem você mais ama!
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =======================================================================
+       EXPERIÊNCIAS ESPECIAIS: CASAL, NOIVAS & CELEBRAÇÕES
+       ======================================================================= -->
+  <section id="experiencias" class="py-20 md:py-28 px-4 md:px-8 bg-emerald-950 text-white relative overflow-hidden">
+    <!-- Efeito de Luz Suave de Fundo -->
+    <div class="absolute -top-40 -right-40 w-96 h-96 bg-gold-500/10 rounded-full blur-3xl"></div>
+    <div class="absolute -bottom-40 -left-40 w-96 h-96 bg-emerald-600/15 rounded-full blur-3xl"></div>
+
+    <div class="max-w-7xl mx-auto relative z-10">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Texto & Proposta de Valor -->
+        <div class="lg:col-span-6">
+          <span class="text-xs uppercase tracking-[0.25em] text-gold-400 font-bold block mb-3">
+            Momentos Inesquecíveis
+          </span>
+          <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-6">
+            Celebrações a Dois, <span class="gold-gradient-text italic font-normal">Dia da Noiva</span> e Ocasiões Únicas.
+          </h2>
+          <p class="text-emerald-100/80 font-light text-base md:text-lg leading-relaxed mb-8">
+            Transforme aniversários, comemorações de namoro, noivados ou o seu grande dia em uma memória inesquecível. Montamos salas totalmente decoradas com pétalas de rosas, velas aromáticas, banho de ofurô com cromoterapia, fondue de morango com chocolate e espumante.
+          </p>
+
+          <!-- Itens Inclusos na Experiência -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8 text-sm">
+            <div class="flex items-center gap-3">
+              <i data-lucide="flame" class="w-5 h-5 text-gold-400 flex-shrink-0"></i>
+              <span>Fondue de Frutas & Chocolate</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <i data-lucide="wine" class="w-5 h-5 text-gold-400 flex-shrink-0"></i>
+              <span>Drinks ou Espumante Refinado</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <i data-lucide="sparkles" class="w-5 h-5 text-gold-400 flex-shrink-0"></i>
+              <span>Decoração com Rosas & Velas</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <i data-lucide="coffee" class="w-5 h-5 text-gold-400 flex-shrink-0"></i>
+              <span>Café da Manhã ou da Tarde</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <i data-lucide="bath" class="w-5 h-5 text-gold-400 flex-shrink-0"></i>
+              <span>Banho de Ofurô com Cromoterapia</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <i data-lucide="gift" class="w-5 h-5 text-gold-400 flex-shrink-0"></i>
+              <span>Dia da Noiva, 15 Anos & Infantil</span>
+            </div>
+          </div>
+
+          <a href="https://wa.me/5561993577982?text=Ol%C3%A1!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20SPA%20Casal%20e%20salas%20decoradas." target="_blank" rel="noopener" class="btn-gold px-8 py-4 rounded-full text-sm font-bold inline-flex items-center gap-2">
+            <i data-lucide="heart" class="w-4 h-4 fill-emerald-950"></i>
+            <span>Consultar Pacotes de Celebração</span>
+          </a>
+        </div>
+
+        <!-- Mosaico de Fotos Reais de Casal e Noivas -->
+        <div class="lg:col-span-6 grid grid-cols-2 gap-4">
+          <div class="space-y-4">
+            <div class="image-zoom-card rounded-2xl overflow-hidden border border-gold-500/20 shadow-xl relative">
+              <img src="Instagram/imgi_40_503182051_4039808612929740_1449702395917358465_n.jpg" alt="Casal em Roupão com Rosa e Fondue na Clínica Hágata" class="w-full h-72 object-cover">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end p-4">
+                <span class="text-xs text-gold-300 font-medium">Spa a Dois & Fondue Romântico</span>
+              </div>
+            </div>
+            <div class="image-zoom-card rounded-2xl overflow-hidden border border-gold-500/20 shadow-xl relative">
+              <img src="Instagram/imgi_32_503207694_1116989027126178_3726702023948160504_n.jpg" alt="Banheira com Cromoterapia e Morangos" class="w-full h-48 object-cover">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end p-4">
+                <span class="text-xs text-gold-300 font-medium">Ofurô & Cromoterapia</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="space-y-4 pt-6">
+            <div class="image-zoom-card rounded-2xl overflow-hidden border border-gold-500/20 shadow-xl relative">
+              <img src="Instagram/imgi_42_503800007_1258114115910842_2037308243947419843_n.jpg" alt="Brinde de Casal com Vinho no SPA" class="w-full h-48 object-cover">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end p-4">
+                <span class="text-xs text-gold-300 font-medium">Brinde Especial</span>
+              </div>
+            </div>
+            <div class="image-zoom-card rounded-2xl overflow-hidden border border-gold-500/20 shadow-xl relative">
+              <img src="Instagram/imgi_24_464671705_18448466848067337_8900031217690877910_n.jpg" alt="Dia da Noiva na Clínica Hágata" class="w-full h-72 object-cover">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end p-4">
+                <span class="text-xs text-gold-300 font-medium">Dia da Noiva & Festa</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =======================================================================
+       A JORNADA DO BEM-ESTAR (OS 4 PASSOS DA SUA VISITA)
+       ======================================================================= -->
+  <section class="py-20 md:py-28 px-4 md:px-8 bg-sand/40">
+    <div class="max-w-7xl mx-auto">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs uppercase tracking-[0.25em] text-emerald-800 font-bold block mb-3">
+          A Experiência Hágata
+        </span>
+        <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-emerald-950 mb-6">
+          Seu momento começa antes do toque.
+        </h2>
+        <div class="ornament-line mb-6">
+          <i data-lucide="compass" class="w-5 h-5 text-gold-600"></i>
+        </div>
+        <p class="text-neutral-600 font-light text-base md:text-lg">
+          Aqui você não olha no relógio. Cada etapa do atendimento foi criada para fazer com que a transição do corre-corre para a calmaria seja imediata e profunda.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- Passo 1 -->
+        <div class="bg-white p-6 rounded-2xl border border-emerald-900/5 shadow-sm relative">
+          <span class="font-serif text-4xl font-bold text-gold-500/40 block mb-2">01</span>
+          <h3 class="font-serif text-xl font-bold text-emerald-950 mb-2">Boas-Vindas & Chá</h3>
+          <p class="text-xs text-neutral-600 font-light leading-relaxed">
+            Recepção tranquila com um blend exclusivo de chá servido em louça especial, aromatização do ambiente e momento para respirar fundo.
+          </p>
+        </div>
+
+        <!-- Passo 2 -->
+        <div class="bg-white p-6 rounded-2xl border border-emerald-900/5 shadow-sm relative">
+          <span class="font-serif text-4xl font-bold text-gold-500/40 block mb-2">02</span>
+          <h3 class="font-serif text-xl font-bold text-emerald-950 mb-2">Escalda-Pés Floral</h3>
+          <p class="text-xs text-neutral-600 font-light leading-relaxed">
+            Água morna enriquecida com pétalas de rosas, fatias cítricas e sais minerais para relaxar as terminações nervosas dos pés.
+          </p>
+        </div>
+
+        <!-- Passo 3 -->
+        <div class="bg-white p-6 rounded-2xl border border-emerald-900/5 shadow-sm relative">
+          <span class="font-serif text-4xl font-bold text-gold-500/40 block mb-2">03</span>
+          <h3 class="font-serif text-xl font-bold text-emerald-950 mb-2">O Ritual da Calmaria</h3>
+          <p class="text-xs text-neutral-600 font-light leading-relaxed">
+            Sua massagem ou Head Spa conduzido com ritmo, temperatura, pressão e óleos botânicos totalmente adaptados ao seu conforto.
+          </p>
+        </div>
+
+        <!-- Passo 4 -->
+        <div class="bg-white p-6 rounded-2xl border border-emerald-900/5 shadow-sm relative">
+          <span class="font-serif text-4xl font-bold text-gold-500/40 block mb-2">04</span>
+          <h3 class="font-serif text-xl font-bold text-emerald-950 mb-2">Despertar Gradual</h3>
+          <p class="text-xs text-neutral-600 font-light leading-relaxed">
+            Sem pressa de ir embora. Tempo livre para hidratar-se, degustar frutas, fondue ou biscoitos finos e voltar suavemente ao seu dia.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =======================================================================
+       SIMULADOR DE EXPERIÊNCIA & AGENDAMENTO EXPRESS (HIGH-CONVERSION)
+       ======================================================================= -->
+  <section id="simulador" class="py-20 md:py-28 px-4 md:px-8 bg-cream relative">
+    <div class="max-w-4xl mx-auto">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="text-xs uppercase tracking-[0.25em] text-gold-700 font-bold block mb-3">
+          Planeje Seu Momento
+        </span>
+        <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-emerald-950 mb-4">
+          Simulador de Agendamento Express
+        </h2>
+        <p class="text-neutral-600 font-light text-sm md:text-base">
+          Escolha os rituais e mimos que combinam com o seu dia. O simulador calcula o valor estimado e gera o agendamento no WhatsApp em 1 clique!
+        </p>
+      </div>
+
+      <!-- Formulário Interativo -->
+      <div class="bg-white rounded-3xl shadow-xl border border-emerald-900/10 p-6 sm:p-10">
+        <form id="expSimForm" class="space-y-6">
+          
+          <!-- Escolha do Procedimento Principal -->
+          <div>
+            <label class="block text-xs uppercase tracking-wider font-bold text-emerald-950 mb-2">
+              1. Escolha o Procedimento Principal:
+            </label>
+            <select id="simRitual" class="w-full bg-sand/40 border border-neutral-300 rounded-xl px-4 py-3.5 text-sm font-medium text-emerald-950 focus:outline-none focus:ring-2 focus:ring-gold-500">
+              <option value="headspa" data-price="180">Head SPA Sensorial Completo (Técnica Japonesa/Tailandesa) - R$ 180,00</option>
+              <option value="dayspa" data-price="197" selected>Day SPA Urbano Relaxante (Massagem + Imersão) - R$ 197,00</option>
+              <option value="pedras" data-price="110">Massagem Relaxante com Pedras Quentes - R$ 110,00</option>
+              <option value="intimo" data-price="250">Clareamento Íntimo & Tratamento de Foliculite - R$ 250,00</option>
+              <option value="limpeza" data-price="150">Limpeza de Pele Profunda (Perfect Skin) - R$ 150,00</option>
+              <option value="facial" data-price="80">SPA Facial Revitalizante - R$ 80,00</option>
+              <option value="labial" data-price="399.99">Micropigmentação Labial Efeito Lip Tint - R$ 399,99</option>
+              <option value="sobrancelhas" data-price="45">Design de Sobrancelhas Personalizado - R$ 45,00</option>
+              <option value="ventosa" data-price="80">Ventosaterapia Terapêutica - R$ 80,00</option>
+              <option value="casal" data-price="297">Experiência Romântica a Dois / Comemoração - A partir de R$ 297,00</option>
+            </select>
+          </div>
+
+          <!-- Duração e Tempo Desejado -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs uppercase tracking-wider font-bold text-emerald-950 mb-2">
+                2. Tempo Estimado Desejado:
+              </label>
+              <select id="simDuration" class="w-full bg-sand/40 border border-neutral-300 rounded-xl px-4 py-3 text-sm text-neutral-800 focus:outline-none focus:ring-2 focus:ring-gold-500">
+                <option value="1 hora">Sessão Express (1 hora)</option>
+                <option value="1 hora e 30 minutos" selected>Sessão Padrão (1h30)</option>
+                <option value="2 horas">Imersão Completa (2 horas)</option>
+                <option value="3 horas (Day Spa VIP)">Day Spa Exclusivo (3 horas)</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-xs uppercase tracking-wider font-bold text-emerald-950 mb-2">
+                3. Período de Preferência:
+              </label>
+              <select id="simPeriod" class="w-full bg-sand/40 border border-neutral-300 rounded-xl px-4 py-3 text-sm text-neutral-800 focus:outline-none focus:ring-2 focus:ring-gold-500">
+                <option value="Manhã (09:00 às 12:00)">Manhã (09:00 às 12:00)</option>
+                <option value="Tarde (13:00 às 17:00)" selected>Tarde (13:00 às 17:00)</option>
+                <option value="Fim de tarde (17:00 às 19:00)">Fim de Tarde (17:00 às 19:00)</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Mimos Adicionais / Opcionais -->
+          <div>
+            <label class="block text-xs uppercase tracking-wider font-bold text-emerald-950 mb-3">
+              4. Deseja Adicionar Mimos Especiais? (Opcional):
+            </label>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <label class="flex items-center gap-3 p-3 rounded-xl border border-neutral-200 hover:border-gold-500 cursor-pointer transition-colors bg-sand/20">
+                <input type="checkbox" class="sim-addon w-4 h-4 text-emerald-800 rounded focus:ring-gold-500" data-price="75" data-name="Fondue de Frutas com Chocolate">
+                <div class="text-xs">
+                  <span class="font-bold text-emerald-950 block">Fondue com Frutas & Chocolate</span>
+                  <span class="text-neutral-500">+ R$ 75,00</span>
+                </div>
+              </label>
+
+              <label class="flex items-center gap-3 p-3 rounded-xl border border-neutral-200 hover:border-gold-500 cursor-pointer transition-colors bg-sand/20">
+                <input type="checkbox" class="sim-addon w-4 h-4 text-emerald-800 rounded focus:ring-gold-500" data-price="90" data-name="Decoração Romântica / Aniversário">
+                <div class="text-xs">
+                  <span class="font-bold text-emerald-950 block">Decoração com Velas & Rosas</span>
+                  <span class="text-neutral-500">+ R$ 90,00</span>
+                </div>
+              </label>
+
+              <label class="flex items-center gap-3 p-3 rounded-xl border border-neutral-200 hover:border-gold-500 cursor-pointer transition-colors bg-sand/20">
+                <input type="checkbox" class="sim-addon w-4 h-4 text-emerald-800 rounded focus:ring-gold-500" data-price="60" data-name="Welcome Drinks / Espumante">
+                <div class="text-xs">
+                  <span class="font-bold text-emerald-950 block">Espumante ou Welcome Drinks</span>
+                  <span class="text-neutral-500">+ R$ 60,00</span>
+                </div>
+              </label>
+
+              <label class="flex items-center gap-3 p-3 rounded-xl border border-neutral-200 hover:border-gold-500 cursor-pointer transition-colors bg-sand/20">
+                <input type="checkbox" class="sim-addon w-4 h-4 text-emerald-800 rounded focus:ring-gold-500" data-price="45" data-name="Escalda-Pés Floral Especial">
+                <div class="text-xs">
+                  <span class="font-bold text-emerald-950 block">Escalda-Pés Floral Especial</span>
+                  <span class="text-neutral-500">+ R$ 45,00</span>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Dados do Cliente -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+            <div>
+              <label class="block text-xs uppercase tracking-wider font-bold text-emerald-950 mb-2">
+                5. Seu Nome Completo:
+              </label>
+              <input type="text" id="simName" placeholder="Ex: Maria Eduarda" class="w-full bg-sand/40 border border-neutral-300 rounded-xl px-4 py-3 text-sm text-neutral-800 focus:outline-none focus:ring-2 focus:ring-gold-500">
+            </div>
+
+            <div>
+              <label class="block text-xs uppercase tracking-wider font-bold text-emerald-950 mb-2">
+                6. Data Pretendida:
+              </label>
+              <input type="date" id="simDate" class="w-full bg-sand/40 border border-neutral-300 rounded-xl px-4 py-3 text-sm text-neutral-800 focus:outline-none focus:ring-2 focus:ring-gold-500">
+            </div>
+          </div>
+
+          <!-- Observações -->
+          <div>
+            <label class="block text-xs uppercase tracking-wider font-bold text-emerald-950 mb-2">
+              Observações ou Ocasião Especial (Opcional):
+            </label>
+            <input type="text" id="simNotes" placeholder="Ex: Aniversário de casamento, presente para minha mãe, foco em alívio de estresse..." class="w-full bg-sand/40 border border-neutral-300 rounded-xl px-4 py-3 text-sm text-neutral-800 focus:outline-none focus:ring-2 focus:ring-gold-500">
+          </div>
+
+          <!-- Caixa Resumo & Botão de Agendamento -->
+          <div class="p-6 rounded-2xl bg-emerald-950 text-white border border-gold-500/30 flex flex-col sm:flex-row items-center justify-between gap-6">
+            <div>
+              <span class="text-xs text-gold-400 uppercase tracking-widest block font-semibold mb-1">
+                Resumo da Sua Experiência:
+              </span>
+              <div class="text-sm font-light text-emerald-100">
+                <span id="sumRitual" class="font-bold text-white block text-base">Day SPA Urbano Relaxante</span>
+                <span class="text-xs text-emerald-200">Duração estimada: <strong id="sumDuration" class="text-white">1 hora e 30 minutos</strong></span>
+              </div>
+              <div class="mt-2 text-2xl font-bold text-gold-300" id="sumPrice">
+                R$ 197,00
+              </div>
+            </div>
+
+            <button id="simSubmitBtn" class="w-full sm:w-auto btn-whatsapp px-8 py-4 rounded-full text-sm font-bold flex items-center justify-center gap-2 pulse-wa">
+              <i data-lucide="message-circle" class="w-5 h-5"></i>
+              <span>Enviar Agendamento no WhatsApp</span>
+            </button>
+          </div>
+
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =======================================================================
+       GALERIA DE MOMENTOS REAIS (INSTAGRAM)
+       ======================================================================= -->
+  <section id="galeria" class="py-20 md:py-28 px-4 md:px-8 bg-sand/50">
+    <div class="max-w-7xl mx-auto">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs uppercase tracking-[0.25em] text-emerald-800 font-bold block mb-3">
+          Atmosfera Real
+        </span>
+        <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-emerald-950 mb-6">
+          Espie o que espera por você.
+        </h2>
+        <div class="ornament-line mb-6">
+          <i data-lucide="camera" class="w-5 h-5 text-gold-600"></i>
+        </div>
+        <p class="text-neutral-600 font-light text-base">
+          Registros autênticos do nosso espaço em Águas Lindas. Clique em qualquer foto para ampliar.
+        </p>
+      </div>
+
+      <!-- Grid de Galeria com Thumbnails Interativos -->
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+        
+        <!-- Foto 1: Head Spa Arco -->
+        <div class="gallery-thumb group relative rounded-2xl overflow-hidden cursor-pointer shadow-sm hover:shadow-md h-60" data-src="Instagram/imgi_20_466926129_18452273836067337_3070347610378355457_n.jpg" data-caption="Head Spa com Arco de Chuva Dourada e Massagem">
+          <img src="Instagram/imgi_20_466926129_18452273836067337_3070347610378355457_n.jpg" alt="Head Spa" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
+            <i data-lucide="zoom-in" class="w-7 h-7 text-gold-300"></i>
+          </div>
+        </div>
+
+        <!-- Foto 2: Casal e Fondue -->
+        <div class="gallery-thumb group relative rounded-2xl overflow-hidden cursor-pointer shadow-sm hover:shadow-md h-60" data-src="Instagram/imgi_40_503182051_4039808612929740_1449702395917358465_n.jpg" data-caption="Comemoração a Dois: Roupão, Rosas e Fondue">
+          <img src="Instagram/imgi_40_503182051_4039808612929740_1449702395917358465_n.jpg" alt="Spa Casal" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
+            <i data-lucide="zoom-in" class="w-7 h-7 text-gold-300"></i>
+          </div>
+        </div>
+
+        <!-- Foto 3: Escalda-Pés Floral -->
+        <div class="gallery-thumb group relative rounded-2xl overflow-hidden cursor-pointer shadow-sm hover:shadow-md h-60" data-src="Instagram/imgi_21_465082982_18450073870067337_5937559637693352755_n.jpg" data-caption="Escalda-Pés Aromático com Flores Naturais e Cítricos">
+          <img src="Instagram/imgi_21_465082982_18450073870067337_5937559637693352755_n.jpg" alt="Escalda-Pés" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
+            <i data-lucide="zoom-in" class="w-7 h-7 text-gold-300"></i>
+          </div>
+        </div>
+
+        <!-- Foto 4: Banho de Ofurô com Morangos -->
+        <div class="gallery-thumb group relative rounded-2xl overflow-hidden cursor-pointer shadow-sm hover:shadow-md h-60" data-src="Instagram/imgi_32_503207694_1116989027126178_3726702023948160504_n.jpg" data-caption="Banho de Imersão e Hidromassagem com Cromoterapia">
+          <img src="Instagram/imgi_32_503207694_1116989027126178_3726702023948160504_n.jpg" alt="Ofurô Spa" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
+            <i data-lucide="zoom-in" class="w-7 h-7 text-gold-300"></i>
+          </div>
+        </div>
+
+        <!-- Foto 5: Xícara Hágata & Rosa -->
+        <div class="gallery-thumb group relative rounded-2xl overflow-hidden cursor-pointer shadow-sm hover:shadow-md h-60" data-src="Instagram/imgi_39_502730114_690548723620642_1214472337475987105_n.jpg" data-caption="Chá Terapêutico na Louça Oficial Clínica Hágata">
+          <img src="Instagram/imgi_39_502730114_690548723620642_1214472337475987105_n.jpg" alt="Chá Oficial" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
+            <i data-lucide="zoom-in" class="w-7 h-7 text-gold-300"></i>
+          </div>
+        </div>
+
+        <!-- Foto 6: Micropigmentação Labial -->
+        <div class="gallery-thumb group relative rounded-2xl overflow-hidden cursor-pointer shadow-sm hover:shadow-md h-60" data-src="Instagram/imgi_17_468156573_18454169578067337_7893878827694310995_n.jpg" data-caption="Micropigmentação Labial e Sobrancelhas Perfeitas">
+          <img src="Instagram/imgi_17_468156573_18454169578067337_7893878827694310995_n.jpg" alt="Micropigmentação" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
+            <i data-lucide="zoom-in" class="w-7 h-7 text-gold-300"></i>
+          </div>
+        </div>
+
+        <!-- Foto 7: Dia da Noiva -->
+        <div class="gallery-thumb group relative rounded-2xl overflow-hidden cursor-pointer shadow-sm hover:shadow-md h-60" data-src="Instagram/imgi_24_464671705_18448466848067337_8900031217690877910_n.jpg" data-caption="Dia da Noiva: Beleza, Calma e Autoestima para o Grande Dia">
+          <img src="Instagram/imgi_24_464671705_18448466848067337_8900031217690877910_n.jpg" alt="Noiva Spa" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
+            <i data-lucide="zoom-in" class="w-7 h-7 text-gold-300"></i>
+          </div>
+        </div>
+
+        <!-- Foto 8: Banho com Pétalas -->
+        <div class="gallery-thumb group relative rounded-2xl overflow-hidden cursor-pointer shadow-sm hover:shadow-md h-60" data-src="Instagram/imgi_52_501902606_3077778559043279_1771691985185899407_n.jpg" data-caption="Banho de Imersão em Leite e Rosas">
+          <img src="Instagram/imgi_52_501902606_3077778559043279_1771691985185899407_n.jpg" alt="Banho de Flores" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
+            <i data-lucide="zoom-in" class="w-7 h-7 text-gold-300"></i>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Link para o Instagram Oficial -->
+      <div class="text-center mt-10">
+        <a href="https://www.instagram.com/hagataspaeestetica/" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-emerald-900 font-bold hover:text-gold-600 transition-colors text-sm">
+          <i data-lucide="instagram" class="w-4 h-4"></i>
+          <span>Acompanhe mais de 400 posts em @hagataspaeestetica</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =======================================================================
+       DEPOIMENTOS REAIS DO GOOGLE (5.0 ESTRELAS)
+       ======================================================================= -->
+  <section id="avaliacoes" class="py-20 md:py-28 px-4 md:px-8 bg-cream">
+    <div class="max-w-7xl mx-auto">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <div class="inline-flex items-center gap-1.5 text-gold-600 mb-2">
+          <i data-lucide="star" class="w-5 h-5 fill-gold-500 text-gold-500"></i>
+          <i data-lucide="star" class="w-5 h-5 fill-gold-500 text-gold-500"></i>
+          <i data-lucide="star" class="w-5 h-5 fill-gold-500 text-gold-500"></i>
+          <i data-lucide="star" class="w-5 h-5 fill-gold-500 text-gold-500"></i>
+          <i data-lucide="star" class="w-5 h-5 fill-gold-500 text-gold-500"></i>
+        </div>
+        <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-emerald-950 mb-4">
+          Avaliação 5.0 no Google
+        </h2>
+        <p class="text-neutral-600 font-light text-base">
+          O que dizem os clientes que já viveram a experiência na Clínica Hágata SPA.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <!-- Avaliação 1 -->
+        <div class="bg-white p-8 rounded-2xl border border-emerald-900/10 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-1 text-gold-500 mb-4">
+              ★★★★★
+            </div>
+            <p class="text-neutral-700 italic font-serif text-base mb-6">
+              "Espaço aconchegante, excelente profissional super indico, voltarei mais vezes !"
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-4 border-t border-neutral-100">
+            <div class="w-10 h-10 rounded-full bg-emerald-100 text-emerald-800 font-bold flex items-center justify-center text-sm">
+              AB
+            </div>
+            <div>
+              <span class="font-bold text-emerald-950 text-sm block">Antonia Barbosa</span>
+              <span class="text-[11px] text-neutral-400">Avaliação verificada no Google</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Avaliação 2 -->
+        <div class="bg-white p-8 rounded-2xl border border-emerald-900/10 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-1 text-gold-500 mb-4">
+              ★★★★★
+            </div>
+            <p class="text-neutral-700 italic font-serif text-base mb-6">
+              "Indico de olhos fechados, a minha experiência foi da melhor forma possível!"
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-4 border-t border-neutral-100">
+            <div class="w-10 h-10 rounded-full bg-emerald-100 text-emerald-800 font-bold flex items-center justify-center text-sm">
+              RC
+            </div>
+            <div>
+              <span class="font-bold text-emerald-950 text-sm block">Ravena Camila</span>
+              <span class="text-[11px] text-neutral-400">Avaliação verificada no Google</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Avaliação 3 -->
+        <div class="bg-white p-8 rounded-2xl border border-emerald-900/10 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-1 text-gold-500 mb-4">
+              ★★★★★
+            </div>
+            <p class="text-neutral-700 italic font-serif text-base mb-6">
+              "Maravilhoso amei o trabalho e o atendimento muito bom 😍🤩"
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-4 border-t border-neutral-100">
+            <div class="w-10 h-10 rounded-full bg-emerald-100 text-emerald-800 font-bold flex items-center justify-center text-sm">
+              EM
+            </div>
+            <div>
+              <span class="font-bold text-emerald-950 text-sm block">Erikanaiara Marques</span>
+              <span class="text-[11px] text-neutral-400">Avaliação verificada no Google</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Selo Google Meu Negócio -->
+      <div class="mt-12 text-center">
+        <a href="https://maps.google.com/?cid=6866904128532474124" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-xs text-neutral-500 hover:text-emerald-900 transition-colors">
+          <i data-lucide="map-pin" class="w-4 h-4 text-gold-600"></i>
+          <span>Mais de 54 avaliações com nota 5.0 no Google Meu Negócio</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =======================================================================
+       PERGUNTAS FREQUENTES (FAQ ACORDEÃO)
+       ======================================================================= -->
+  <section class="py-20 md:py-28 px-4 md:px-8 bg-sand/30">
+    <div class="max-w-4xl mx-auto">
+      
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <span class="text-xs uppercase tracking-[0.25em] text-gold-700 font-bold block mb-3">
+          Tire Suas Dúvidas
+        </span>
+        <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-emerald-950 mb-4">
+          Perguntas Frequentes
+        </h2>
+        <p class="text-neutral-600 font-light text-base">
+          Tudo o que você precisa saber antes de chegar para o seu momento de paz.
+        </p>
+      </div>
+
+      <div class="space-y-4">
+        
+        <!-- FAQ 1 -->
+        <div class="faq-item bg-white rounded-2xl border border-emerald-900/10 overflow-hidden shadow-sm">
+          <button class="faq-trigger w-full px-6 py-5 text-left flex items-center justify-between gap-4 font-serif text-lg font-bold text-emerald-950 hover:text-gold-700 transition-colors">
+            <span>O que é exatamente o Head Spa e para quem é indicado?</span>
+            <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-gold-600 transition-transform duration-300"></i>
+          </button>
+          <div class="faq-content px-6 pb-5 text-sm text-neutral-600 font-light leading-relaxed">
+            O Head Spa é uma terapia holística originária do Japão e Tailândia que combina cascata de água morna em arco, massagem crânio-cervical, esfoliação do couro cabeludo e aromaterapia. É indicado para quem sofre com estresse, insônia, enxaqueca, cansaço mental, tensão nos ombros e também para quem deseja recuperar a saúde e o brilho dos fios de cabelo.
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="faq-item bg-white rounded-2xl border border-emerald-900/10 overflow-hidden shadow-sm">
+          <button class="faq-trigger w-full px-6 py-5 text-left flex items-center justify-between gap-4 font-serif text-lg font-bold text-emerald-950 hover:text-gold-700 transition-colors">
+            <span>Como funciona o Clareamento Íntimo e combate à Foliculite?</span>
+            <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-gold-600 transition-transform duration-300"></i>
+          </button>
+          <div class="faq-content px-6 pb-5 text-sm text-neutral-600 font-light leading-relaxed">
+            Somos referência regional em estética íntima. Utilizamos dermocosméticos seguros, peelings suaves e ativos clareadores específicos para áreas sensíveis como virilha, axilas e glúteos. O tratamento uniformiza a tonalidade da pele, reduz manchas decorrentes de atrito ou depilação e desinflama os poros com foliculite com total discrição e higiene.
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="faq-item bg-white rounded-2xl border border-emerald-900/10 overflow-hidden shadow-sm">
+          <button class="faq-trigger w-full px-6 py-5 text-left flex items-center justify-between gap-4 font-serif text-lg font-bold text-emerald-950 hover:text-gold-700 transition-colors">
+            <span>Como funcionam os pacotes para casais e aniversários?</span>
+            <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-gold-600 transition-transform duration-300"></i>
+          </button>
+          <div class="faq-content px-6 pb-5 text-sm text-neutral-600 font-light leading-relaxed">
+            Criamos uma ambientação privativa completa com pétalas de rosas, velas, luz baixa/cromoterapia, roupões e taças. O pacote pode incluir fondue de morangos com chocolate, drinks ou espumante, além de banhos de imersão e massagens simultâneas. É ideal para pedidos de namoro, casamento, aniversários e dia da noiva.
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="faq-item bg-white rounded-2xl border border-emerald-900/10 overflow-hidden shadow-sm">
+          <button class="faq-trigger w-full px-6 py-5 text-left flex items-center justify-between gap-4 font-serif text-lg font-bold text-emerald-950 hover:text-gold-700 transition-colors">
+            <span>É necessário agendar com antecedência?</span>
+            <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-gold-600 transition-transform duration-300"></i>
+          </button>
+          <div class="faq-content px-6 pb-5 text-sm text-neutral-600 font-light leading-relaxed">
+            Sim! Para garantir um atendimento exclusivo e personalizado, sem filas e com a sala devidamente preparada e climatizada especialmente para você, trabalhamos estritamente com agendamento prévio pelo WhatsApp.
+          </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="faq-item bg-white rounded-2xl border border-emerald-900/10 overflow-hidden shadow-sm">
+          <button class="faq-trigger w-full px-6 py-5 text-left flex items-center justify-between gap-4 font-serif text-lg font-bold text-emerald-950 hover:text-gold-700 transition-colors">
+            <span>Posso presentear alguém com um Vale Day SPA?</span>
+            <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-gold-600 transition-transform duration-300"></i>
+          </button>
+          <div class="faq-content px-6 pb-5 text-sm text-neutral-600 font-light leading-relaxed">
+            Com certeza! Temos opções de cartões presentes físicos ou digitais personalizados. Você escolhe o valor ou os procedimentos e a pessoa presenteada tem a flexibilidade de agendar a data de sua preferência.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =======================================================================
+       LOCALIZAÇÃO, HORÁRIOS & CONTATO
+       ======================================================================= -->
+  <section id="contato" class="py-20 md:py-28 px-4 md:px-8 bg-cream">
+    <div class="max-w-7xl mx-auto">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Informações de Contato & Rota -->
+        <div class="lg:col-span-5 space-y-8">
+          <div>
+            <span class="text-xs uppercase tracking-[0.25em] text-gold-700 font-bold block mb-3">
+              Visite Nosso Espaço
+            </span>
+            <h2 class="font-serif text-3xl sm:text-4xl font-bold text-emerald-950 mb-4">
+              Um refúgio no Jardim Pérola 2
+            </h2>
+            <p class="text-neutral-600 font-light text-sm md:text-base leading-relaxed">
+              Fácil acesso em Águas Lindas de Goiás, com estacionamento tranquilo e ambiente discreto e acolhedor.
+            </p>
+          </div>
+
+          <div class="space-y-4">
+            
+            <div class="flex items-start gap-4 p-4 rounded-xl bg-white border border-emerald-900/10 shadow-sm">
+              <div class="w-10 h-10 rounded-full bg-emerald-100 text-emerald-800 flex items-center justify-center flex-shrink-0 mt-0.5">
+                <i data-lucide="map-pin" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <span class="text-xs font-bold uppercase tracking-wider text-neutral-400 block">Endereço</span>
+                <p class="text-sm font-semibold text-emerald-950">
+                  Quadra 49, Lote 2/4, Loja 104<br>
+                  Jardim Pérola 2, Águas Lindas de Goiás - GO<br>
+                  CEP: 72910-000
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4 p-4 rounded-xl bg-white border border-emerald-900/10 shadow-sm">
+              <div class="w-10 h-10 rounded-full bg-emerald-100 text-emerald-800 flex items-center justify-center flex-shrink-0 mt-0.5">
+                <i data-lucide="clock" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <span class="text-xs font-bold uppercase tracking-wider text-neutral-400 block">Horário de Funcionamento</span>
+                <p class="text-sm font-semibold text-emerald-950">
+                  Terça a Sábado: 09:00 às 19:00<br>
+                  <span class="text-xs text-neutral-500 font-normal">Atendimento com hora marcada</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4 p-4 rounded-xl bg-white border border-emerald-900/10 shadow-sm">
+              <div class="w-10 h-10 rounded-full bg-emerald-100 text-emerald-800 flex items-center justify-center flex-shrink-0 mt-0.5">
+                <i data-lucide="phone" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <span class="text-xs font-bold uppercase tracking-wider text-neutral-400 block">WhatsApp & Agendamentos</span>
+                <a href="https://wa.me/5561993577982" target="_blank" rel="noopener" class="text-sm font-bold text-emerald-800 hover:text-gold-600 transition-colors">
+                  (61) 99357-7982
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="flex flex-col sm:flex-row gap-3">
+            <a href="https://maps.google.com/?cid=6866904128532474124" target="_blank" rel="noopener" class="btn-emerald px-6 py-3.5 rounded-full text-xs font-bold flex items-center justify-center gap-2">
+              <i data-lucide="navigation" class="w-4 h-4"></i>
+              <span>Traçar Rota no Google Maps</span>
+            </a>
+            <a href="https://www.instagram.com/hagataspaeestetica/" target="_blank" rel="noopener" class="border border-neutral-300 hover:border-emerald-800 px-6 py-3.5 rounded-full text-xs font-bold text-emerald-950 flex items-center justify-center gap-2 transition-all">
+              <i data-lucide="instagram" class="w-4 h-4"></i>
+              <span>Instagram @hagataspaeestetica</span>
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Mapa Embebido Google Maps -->
+        <div class="lg:col-span-7 h-[420px] rounded-3xl overflow-hidden shadow-xl border border-emerald-900/10 relative">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15366.529810452904!2d-48.2741879!3d-15.7446056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a33f136a72c8f%3A0x5f4c3273275ae90c!2sCl%C3%ADnica%20H%C3%A1gata%20SPA%20e%20Est%C3%A9tica!5e0!3m2!1spt-BR!2sbr!4v1729540000000!5m2!1spt-BR!2sbr" 
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Localização Clínica Hágata SPA e Estética">
+          </iframe>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =======================================================================
+       BANNER FINAL CTA DE EXPERIÊNCIA
+       ======================================================================= -->
+  <section class="py-16 px-4 md:px-8 emerald-gradient-bg text-white text-center relative overflow-hidden border-t border-gold-500/20">
+    <div class="max-w-3xl mx-auto relative z-10">
+      <div class="w-16 h-16 mx-auto mb-6 rounded-full p-1 border border-gold-400 bg-emerald-950 shadow-lg">
+        <img src="Instagram/logo.webp" alt="Logo Hágata" class="w-full h-full object-cover rounded-full">
+      </div>
+      <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
+        Pronta para cuidar de quem mais importa?
+      </h2>
+      <p class="text-emerald-100/90 text-sm md:text-base font-light mb-8 max-w-xl mx-auto">
+        Reserve o seu momento agora mesmo. Viva o silêncio, a água morna e a serenidade que o seu corpo tanto pede.
+      </p>
+      <a href="https://wa.me/5561993577982?text=Ol%C3%A1!%20Gostaria%20de%20reservar%20um%20hor%C3%A1rio%20especial%20na%20Cl%C3%ADnica%20H%C3%A1gata." target="_blank" rel="noopener" class="btn-gold px-10 py-4 rounded-full text-base font-bold inline-flex items-center gap-3 shadow-xl">
+        <i data-lucide="calendar" class="w-5 h-5"></i>
+        <span>Agendar Experiência pelo WhatsApp</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- =======================================================================
+       RODAPÉ LUXURY
+       ======================================================================= -->
+  <footer class="bg-emerald-950 text-neutral-400 py-12 px-4 md:px-8 text-xs border-t border-white/5">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+      
+      <!-- Coluna 1: Marca & Manifesto -->
+      <div class="space-y-3">
+        <div class="flex items-center gap-2">
+          <img src="Instagram/logo.webp" alt="Logo Hágata" class="w-8 h-8 rounded-full border border-gold-500/40">
+          <span class="font-serif text-lg font-bold text-white tracking-wider">HÁGATA</span>
+        </div>
+        <p class="text-neutral-400 leading-relaxed font-light">
+          O primeiro Head Spa de Águas Lindas de Goiás. Estética com alma, relaxamento profundo e rituais sem pressa.
+        </p>
+        <span class="text-gold-400 font-medium block">
+          Nota 5.0 ★ no Google (54 Avaliações)
+        </span>
+      </div>
+
+      <!-- Coluna 2: Rituais Principais -->
+      <div>
+        <h4 class="font-bold text-white text-sm mb-3">Rituais em Destaque</h4>
+        <ul class="space-y-2">
+          <li><a href="#headspa" class="hover:text-gold-300 transition-colors">Head SPA Tailandês & Japonês</a></li>
+          <li><a href="#servicos" class="hover:text-gold-300 transition-colors">Day SPA Urbano (1h a 3h)</a></li>
+          <li><a href="#servicos" class="hover:text-gold-300 transition-colors">Massagem com Pedras Quentes</a></li>
+          <li><a href="#servicos" class="hover:text-gold-300 transition-colors">Clareamento Íntimo & Foliculite</a></li>
+          <li><a href="#servicos" class="hover:text-gold-300 transition-colors">Limpeza de Pele Perfect Skin</a></li>
+        </ul>
+      </div>
+
+      <!-- Coluna 3: Ocasiões & Experiências -->
+      <div>
+        <h4 class="font-bold text-white text-sm mb-3">Ocasiões Especiais</h4>
+        <ul class="space-y-2">
+          <li><a href="#experiencias" class="hover:text-gold-300 transition-colors">Day SPA Casal com Fondue</a></li>
+          <li><a href="#experiencias" class="hover:text-gold-300 transition-colors">Dia da Noiva Inesquecível</a></li>
+          <li><a href="#experiencias" class="hover:text-gold-300 transition-colors">Aniversários & Comemorações</a></li>
+          <li><a href="#servicos" class="hover:text-gold-300 transition-colors">Micropigmentação Labial</a></li>
+          <li><a href="#simulador" class="hover:text-gold-300 transition-colors">Vale Presente Day Spa</a></li>
+        </ul>
+      </div>
+
+      <!-- Coluna 4: Endereço & Horário -->
+      <div>
+        <h4 class="font-bold text-white text-sm mb-3">Contato & Atendimento</h4>
+        <p class="mb-2 leading-relaxed">
+          Quadra 49, Lote 2/4, Loja 104<br>
+          Jardim Pérola 2, Águas Lindas de Goiás - GO<br>
+          CEP 72910-000
+        </p>
+        <p class="text-white font-medium mb-1">WhatsApp: (61) 99357-7982</p>
+        <p class="text-neutral-400">Terça a Sábado: 09h às 19h</p>
+      </div>
+
+    </div>
+
+    <div class="max-w-7xl mx-auto pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-neutral-400">
+      <span>© 2026 Clínica Hágata SPA e Estética. Todos os direitos reservados.</span>
+      <span>Desenvolvido com foco em alta conversão & experiência sensorial.</span>
+    </div>
+  </footer>
+
+  <!-- =======================================================================
+       MODAL LIGHTBOX PARA A GALERIA
+       ======================================================================= -->
+  <div id="galleryModal" class="modal-overlay fixed inset-0 z-50 flex items-center justify-center p-4">
+    <div class="modal-backdrop absolute inset-0 bg-black/85 backdrop-blur-sm"></div>
+    <div class="relative z-10 max-w-4xl max-h-[90vh] bg-emerald-950 rounded-2xl overflow-hidden border border-gold-500/30 flex flex-col">
+      <div class="flex items-center justify-between p-4 border-b border-white/10 text-white">
+        <span id="galleryModalCaption" class="text-sm font-medium text-gold-300"></span>
+        <button id="galleryModalClose" class="text-neutral-400 hover:text-white p-1">
+          <i data-lucide="x" class="w-6 h-6"></i>
+        </button>
+      </div>
+      <div class="p-2 flex items-center justify-center overflow-auto max-h-[75vh]">
+        <img id="galleryModalImg" src="" alt="Ampliação" class="max-h-[72vh] max-w-full object-contain rounded-lg">
+      </div>
+    </div>
+  </div>
+
+  <!-- =======================================================================
+       BOTÃO FLUTUANTE DE WHATSAPP (COM PULSO E TOOLTIP)
+       ======================================================================= -->
+  <div class="fixed bottom-20 md:bottom-8 right-5 z-40">
+    <a href="https://wa.me/5561993577982?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20na%20Cl%C3%ADnica%20H%C3%A1gata%20SPA." 
+       target="_blank" 
+       rel="noopener"
+       aria-label="Agendar via WhatsApp"
+       class="flex items-center justify-center w-14 h-14 md:w-16 md:h-16 rounded-full btn-whatsapp shadow-2xl pulse-wa hover:scale-110 transition-transform">
+      <i data-lucide="message-circle" class="w-7 h-7 md:w-8 md:h-8 text-white"></i>
+    </a>
+  </div>
+
+  <!-- =======================================================================
+       BARRA FIXA MOBILE DE CONVERSÃO
+       ======================================================================= -->
+  <div class="fixed bottom-0 left-0 right-0 z-40 md:hidden bg-emerald-950/95 backdrop-blur-md border-t border-gold-500/30 p-3 flex items-center justify-between gap-3 shadow-2xl">
+    <div class="flex items-center gap-2">
+      <img src="Instagram/logo.webp" alt="Logo" class="w-9 h-9 rounded-full border border-gold-400">
+      <div class="text-left">
+        <span class="text-xs font-bold text-white block">Clínica Hágata</span>
+        <span class="text-[10px] text-gold-400 font-medium">Head SPA & Estética</span>
+      </div>
+    </div>
+    <a href="https://wa.me/5561993577982?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20experi%C3%AAncia%20na%20Cl%C3%ADnica%20H%C3%A1gata." target="_blank" rel="noopener" class="btn-gold text-xs px-4 py-2.5 rounded-full font-bold flex items-center gap-1.5 shadow-md">
+      <i data-lucide="calendar" class="w-3.5 h-3.5"></i>
+      <span>Agendar</span>
+    </a>
+  </div>
+
+  <!-- Scripts Interativos -->
+  <script src="script.js"></script>
+</body>
+</html>

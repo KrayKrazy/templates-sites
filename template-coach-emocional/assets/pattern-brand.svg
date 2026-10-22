@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <style>
+      .pat-line { stroke: #DCCDBA; stroke-width: 0.75; fill: none; opacity: 0.45; }
+      .pat-gold { fill: #B89B5E; opacity: 0.6; }
+      .pat-leaf { fill: #7A8166; opacity: 0.35; }
+    </style>
+  </defs>
+
+  <rect width="120" height="120" fill="none"/>
+
+  <!-- Centro: Mini Monograma / Losango com Estrela -->
+  <g transform="translate(60, 60)">
+    <!-- Losango -->
+    <path d="M 0 -22 L 22 0 L 0 22 L -22 0 Z" class="pat-line"/>
+    <circle cx="0" cy="0" r="14" class="pat-line"/>
+
+    <!-- Estrela Guia Central -->
+    <path d="M 0 -5 Q 0.6 -0.6 5 0 Q 0.6 0.6 0 5 Q -0.6 0.6 -5 0 Q -0.6 -0.6 0 -5 Z" class="pat-gold"/>
+
+    <!-- Folhinhas de Oliveira -->
+    <path d="M -16 0 C -12 -4 -8 -3 -6 0 C -8 3 -12 4 -16 0 Z" class="pat-leaf"/>
+    <path d="M 16 0 C 12 -4 8 -3 6 0 C 8 3 12 4 16 0 Z" class="pat-leaf"/>
+  </g>
+
+  <!-- 4 Cantos para continuidade do Seamless Pattern Tile -->
+  <g transform="translate(0, 0)">
+    <circle cx="0" cy="0" r="14" class="pat-line"/>
+    <path d="M 0 -5 Q 0.6 -0.6 5 0 Q 0.6 0.6 0 5 Q -0.6 0.6 -5 0 Q -0.6 -0.6 0 -5 Z" class="pat-gold"/>
+  </g>
+  <g transform="translate(120, 0)">
+    <circle cx="0" cy="0" r="14" class="pat-line"/>
+    <path d="M 0 -5 Q 0.6 -0.6 5 0 Q 0.6 0.6 0 5 Q -0.6 0.6 -5 0 Q -0.6 -0.6 0 -5 Z" class="pat-gold"/>
+  </g>
+  <g transform="translate(0, 120)">
+    <circle cx="0" cy="0" r="14" class="pat-line"/>
+    <path d="M 0 -5 Q 0.6 -0.6 5 0 Q 0.6 0.6 0 5 Q -0.6 0.6 -5 0 Q -0.6 -0.6 0 -5 Z" class="pat-gold"/>
+  </g>
+  <g transform="translate(120, 120)">
+    <circle cx="0" cy="0" r="14" class="pat-line"/>
+    <path d="M 0 -5 Q 0.6 -0.6 5 0 Q 0.6 0.6 0 5 Q -0.6 0.6 -5 0 Q -0.6 -0.6 0 -5 Z" class="pat-gold"/>
+  </g>
+</svg>

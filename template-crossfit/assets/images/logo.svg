@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 160" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="thunderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff3b30"/>
+      <stop offset="50%" stop-color="#de0f1b"/>
+      <stop offset="100%" stop-color="#99000a"/>
+    </linearGradient>
+    <linearGradient id="silverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#a1a1aa"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Icon Symbol: Shield / Thunderbolt / Crossfit Cross -->
+  <g transform="translate(30, 16)">
+    <!-- Shield Outline -->
+    <path d="M 64 6 L 118 26 L 102 96 C 96 118, 64 134, 64 134 C 64 134, 32 118, 26 96 L 10 26 Z" 
+          fill="#131317" stroke="url(#thunderGrad)" stroke-width="4.5" stroke-linejoin="round"/>
+    
+    <!-- Crossed Barbells in background of shield -->
+    <path d="M 34 38 L 94 98 M 94 38 L 34 98" stroke="#27272a" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="34" cy="38" r="4.5" fill="#3f3f46"/>
+    <circle cx="94" cy="98" r="4.5" fill="#3f3f46"/>
+    <circle cx="94" cy="38" r="4.5" fill="#3f3f46"/>
+    <circle cx="34" cy="98" r="4.5" fill="#3f3f46"/>
+
+    <!-- Dynamic Lightning Bolt Symbol (Thunder) -->
+    <polygon points="68,14 42,70 62,70 56,122 92,58 70,58" fill="url(#thunderGrad)" filter="url(#glow)"/>
+    <polygon points="68,14 42,70 62,70 56,122 92,58 70,58" fill="url(#thunderGrad)"/>
+    <!-- Highlight on lightning bolt -->
+    <polygon points="66,22 47,68 63,68 60,88 78,59 67,59" fill="#ff7669" opacity="0.6"/>
+  </g>
+
+  <!-- Typography: THUNDER CROSS -->
+  <text x="175" y="76" font-family="'Impact', 'Barlow Condensed', 'Arial Black', sans-serif" font-size="56" font-style="italic" font-weight="900" fill="url(#silverGrad)" letter-spacing="2">
+    THUNDER <tspan fill="url(#thunderGrad)">CROSS</tspan>
+  </text>
+  
+  <!-- Subtitle: CF · CENTRO DE TREINAMENTO -->
+  <text x="178" y="112" font-family="'Inter', -apple-system, sans-serif" font-size="16" font-weight="800" fill="#a1a1aa" letter-spacing="6">
+    CF <tspan fill="#de0f1b">●</tspan> CENTRO DE TREINAMENTO
+  </text>
+
+  <!-- Bottom Accent Stripe -->
+  <rect x="178" y="122" width="410" height="3" rx="1.5" fill="url(#thunderGrad)" opacity="0.8"/>
+</svg>
