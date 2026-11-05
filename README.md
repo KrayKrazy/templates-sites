@@ -61,14 +61,25 @@ Diferente de templates convencionais de mercado que sofrem com excesso de biblio
 | :--- | :--- | :--- | :--- | :--- |
 | [`brand-michelle-cristina`](./brand-michelle-cristina/) | Design System & Identidade Visual | HTML5 + CSS3 + SVGs | Manual vivo de marca com paleta completa e acervo vetorial | [README_BRAND](./brand-michelle-cristina/README_BRAND_MICHELLE_CRISTINA.md) |
 | [`template-cartuchos`](./template-cartuchos/) | Suprimentos de TI & Recarga | HTML5 + CSS3 + Vanilla JS | Simulador interativo de recarga/toner por marca e modelo com WhatsApp | [INSTRUCOES](./INSTRUCOES_SITE_MULTI_CARTUCHOS.md) |
+| [`template-chaveiro-goias`](./template-chaveiro-goias/) | Chaveiro 24 Horas & Segurança Residencial/Automotiva | HTML5 + CSS Tokens + Vanilla JS | **Simulador de Atendimento Emergencial 24h**, Seletor de Chamado Rápido, Avaliações Google 5.0 e Sticky Bar Mobile | [INSTRUCOES](./INSTRUCOES_SITE_CHAVEIRO_GOIAS_CHAVES_24HS.md) |
+| [`template-chaveiro-jairo`](./template-chaveiro-jairo/) | Chaveiro 24 Horas em Goiânia (Jd. Pompéia) | HTML5 + CSS Tokens + Vanilla JS | **Simulador de Emergência 24h**, Seletor Rápido de Serviços, Prova Social Google 5.0 e Sticky Bar Mobile | [INSTRUCOES](./INSTRUCOES_SITE_CHAVEIRO_JAIRO_24HS.md) |
 | [`template-coach-emocional`](./template-coach-emocional/) | Coach, Mentoria & Liderança | Vanilla JS + AOS + CSS Tokens | **Termômetro da Inteligência Emocional** (Quiz interativo com diagnóstico) | [INSTRUCOES](./INSTRUCOES_SITE_COACH_INTELIGENCIA_EMOCIONAL_MICHELLE.md) |
 | [`template-corretor-imoveis`](./template-corretor-imoveis/) | Imóveis Médio & Alto Padrão | Vanilla JS + Modal Engine | **Property Engine**: Filtro dinâmico por categoria/bairro e **Simulador de Financiamento** | [INSTRUCOES](./INSTRUCOES_SITE_CORRETOR_IMOVEIS_CLEYTINHO.md) |
+| [`template-construcao-instalacoes`](./template-construcao-instalacoes/) | Construção Civil, Reformas, Elétrica NR-10 & CFTV (Blumenau - SC) | HTML5 + CSS Tokens + Vanilla JS | **Simulador Interativo 3-Etapas WhatsApp**, Plantão 24h, Contadores Animados e Prova Google 5.0★ | [INSTRUCOES](./INSTRUCOES_SITE_CONSTRUCAO_CIVIL_E_INSTALACOES_VM.md) |
 | [`template-crossfit`](./template-crossfit/) | Box de CrossFit & Treino Funcional | HTML5 + CSS3 + Vanilla JS | Grade interativa de horários, cálculo de IMC/metas e agendamento de aula experimental | [INSTRUCOES](./INSTRUCOES_SITE_CROSSFIT.md) |
+| [`template-dcore-moveis-planejados`](./template-dcore-moveis-planejados/) | Marcenaria Fina & Móveis Planejados (Alto Padrão) | HTML5 + CSS Tokens Dark Luxury + Vanilla JS | **Slider Cinematográfico Zero-Crop (21 Fotos Sem Cortes)**, Palco Ambient Glow, Lightbox Zoom, Simulador 3D e Prova Social Google 4.9★ | [INSTRUCOES](./INSTRUCOES_SITE_DCORE_MOVEIS_PLANEJADOS.md) |
 | [`template-estudio-beleza`](./template-estudio-beleza/) | Salão, Estética, Nail & Lash | HTML5 + CSS3 + Vanilla JS | Seletor de procedimentos múltiplos e agendamento express no WhatsApp | [INSTRUCOES](./INSTRUCOES_SITE_ESTUDIO_BELEZA_E_SALAO.md) |
+| [`template-freitas-estofados`](./template-freitas-estofados/) | Sofás Sob Medida, Reformas & Móveis Planejados | HTML5 + CSS Tokens + Vanilla JS | **Simulador de Sofás & Planejados 1-Clique**, Galeria Lightbox Zoom e Prova Social Google 5.0 | [INSTRUCOES](./INSTRUCOES_SITE_FREITAS_ESTOFADOS_MOVEIS_PLANEJADOS.md) |
 | [`template-hamburgueria`](./template-hamburgueria/) | E-Commerce Delivery / Pit-Dog | Vanilla JS + Cart Drawer + Cakto | **Dual-Checkout Cakto/WhatsApp**, Customizador de Lanches e taxa por bairro | [INSTRUCOES](./INSTRUCOES_SITE_HAMBURGUERIA_PITDOG.md) |
+| [`template-kalisto-moveis`](./template-kalisto-moveis/) | Lojas de Móveis & Eletrodomésticos | HTML5 + CSS3 + Vanilla JS | **Simulador de Crediário & Carnê em 3 Etapas**, Vitrine Filtrável e Campanha 10x | [INSTRUCOES](./INSTRUCOES_SITE_KALISTO_MOVEIS_ELETRO.md) |
+| [`template-mje-moveis-planejados`](./template-mje-moveis-planejados/) | Móveis Planejados & Marcenaria Nobre | HTML5 + CSS Tokens + Vanilla JS | **Simulador de Projeto 3D**, Galeria com Filtros/Modal Zoom e Prova Social Google 5.0 | [INSTRUCOES](./INSTRUCOES_SITE_MJE_MOVEIS_PLANEJADOS.md) |
 | [`template-linha-branca`](./template-linha-branca/) | Assistência Técnica de Eletros | White-Label (`{{TOKENS}}`) | Top Bar com `.live-pulse`, gatilhos de emergência e orçamentação direta | [INSTRUCOES](./INSTRUCOES_SITE_LINHA_BRANCA_REFRIGERACAO.md) |
 | [`template-otica`](./template-otica/) | Óticas & Saúde Visual | HTML5 + CSS3 + Vanilla JS | Vitrine filtrável de armações (Masculino, Feminino, Solar) e Simulador de Lentes | [INSTRUCOES](./INSTRUCOES_SITE_OTICA_LEUS.md) |
+| [`template-portoes-eletronicos`](./template-portoes-eletronicos/) | Portões Eletrônicos & Segurança CFTV (Brasília) | HTML5 + CSS Tokens + Vanilla JS | **Simulador de Diagnóstico Express**, Vitrine c/ Preços Reais e Prova Google | [INSTRUCOES](./INSTRUCOES_SITE_PORTOES_ELETRONICOS_ADT_TELECOM.md) |
+| [`portao-eletronico-goiania`](../portao%20eletronico/) | Portões Eletrônicos & Segurança (Goiânia) | Tailwind CDN + CSS + JS (Zero IA) | **Seletor de Diagnóstico 1-Clique**, Prova Social 5.0 (Renaldo/Fabio/Kesia) e Mapa | [INSTRUCOES](./INSTRUCOES_SITE_PORTAO_ELETRONICO_GOIANIA.md) |
+| [`jr-portoes-eletronicos`](../jr%20portoes%20eletronicos/) | Fábrica de Portões Automáticos & Manutenção 24h (Goiânia) | HTML5 + CSS Tokens Dark Luxury + Vanilla JS | **Design Espelhado JR Portões Automáticos**, Galeria de Modelos, Form WhatsApp e Prova 5.0★ | [INSTRUCOES](./INSTRUCOES_SITE_JR_PORTOES_ELETRONICOS.md) |
 | [`template-spa`](./template-spa/) | Head Spa & Terapias Sensoriais | Tailwind CSS + Lucide Icons | Protocolos de terapia capilar, simulador de experiência e galeria sensorial | [INSTRUCOES](./INSTRUCOES_SITE_SPA_HEAD_SPA_HAGATA.md) |
+| [`template-ultraclean-impermeabilizacao`](./template-ultraclean-impermeabilizacao/) | Impermeabilização Blindada, Estética de Estofados & Higienização (Anápolis - GO) | HTML5 + CSS Tokens Dark Obsidian & Liquid Gold + Vanilla JS | **Slider Interativo Antes & Depois**, Simulador de Orçamento 1-Minuto p/ WhatsApp, Efeito Lótus e Prova Google 5.0★ | [INSTRUCOES](./INSTRUCOES_SITE_ULTRACLEAN_IMPERMEABILIZACAO.md) |
 | [`template-veterinaria`](./template-veterinaria/) | Clínica Veterinária & Pronto Socorro 24h | Vanilla JS + Live Clock Engine | **Live Duty Clock** (Plantão ativo a cada 30s) e Triagem de Emergência SOS | [INSTRUCOES](./INSTRUCOES_SITE_CLINICA_VETERINARIA_MAIS_VET.md) |
 
 ---
@@ -77,6 +88,11 @@ Diferente de templates convencionais de mercado que sofrem com excesso de biblio
 
 Cada manual detalha a psicologia de compra do nicho, benchmarking extraído do GitHub, anatomia das seções e estratégias de SEO Local:
 
+* [🚪 Portões Eletrônicos, Manutenção Express & Câmeras CFTV (ADT Telecom - Brasília)](./INSTRUCOES_SITE_PORTOES_ELETRONICOS_ADT_TELECOM.md)
+* [🚪 Portão Eletrônico & Segurança Eletrônica (Goiânia - GO)](./INSTRUCOES_SITE_PORTAO_ELETRONICO_GOIANIA.md)
+* [🚪 JR Portões Automáticos & Fábrica de Portões 24h (Goiânia - GO)](./INSTRUCOES_SITE_JR_PORTOES_ELETRONICOS.md)
+* [🔑 Chaveiro 24 Horas, Chaves Automotivas & Fechaduras Digitais (Chaveiro Goiás)](./INSTRUCOES_SITE_CHAVEIRO_GOIAS_CHAVES_24HS.md)
+* [🔑 Chaveiro 24 Horas em Goiânia - Vila Jardim Pompéia (Chaveiro Jairo)](./INSTRUCOES_SITE_CHAVEIRO_JAIRO_24HS.md)
 * [🥋 Academia de Luta & Karatê Tradicional (Okinawa SAD)](./INSTRUCOES_SITE_ACADEMIA_DE_LUTA_OKINAWA.md)
 * [🐾 Clínica Veterinária & Emergência 24 Horas (Mais Vet)](./INSTRUCOES_SITE_CLINICA_VETERINARIA_MAIS_VET.md)
 * [🕊️ Mentoria Sistêmica & Inteligência Emocional (Michelle Cristina)](./INSTRUCOES_SITE_COACH_INTELIGENCIA_EMOCIONAL_MICHELLE.md)
@@ -87,7 +103,13 @@ Cada manual detalha a psicologia de compra do nicho, benchmarking extraído do G
 * [❄️ Assistência Técnica & Conserto de Linha Branca](./INSTRUCOES_SITE_LINHA_BRANCA_REFRIGERACAO.md)
 * [🖨️ Recarga de Cartuchos, Toner e Informática Express (Multi Cartuchos)](./INSTRUCOES_SITE_MULTI_CARTUCHOS.md)
 * [👓 Óticas, Armações de Grau e Solares (Leu's Ótica)](./INSTRUCOES_SITE_OTICA_LEUS.md)
+* [🛋️ Lojas de Móveis & Eletrodomésticos com Carnê 10x (Kalisto Móveis)](./INSTRUCOES_SITE_KALISTO_MOVEIS_ELETRO.md)
+* [🪵 Móveis Planejados & Marcenaria Fina de Alto Padrão (MJE Móveis Planejados)](./INSTRUCOES_SITE_MJE_MOVEIS_PLANEJADOS.md)
+* [🪵 Marcenaria Fina, Móveis Sob Medida & Slider Zero-Crop (Marcenaria D'Core - Aparecida de Goiânia)](./INSTRUCOES_SITE_DCORE_MOVEIS_PLANEJADOS.md)
+* [🛋️ Sofás Sob Medida, Reformas & Móveis Planejados (Freitas Estofados)](./INSTRUCOES_SITE_FREITAS_ESTOFADOS_MOVEIS_PLANEJADOS.md)
 * [🌿 Head Spa, Estética Avançada e Bem-Estar Sensorial (Hágata SPA)](./INSTRUCOES_SITE_SPA_HEAD_SPA_HAGATA.md)
+* [🛡️ Impermeabilização Blindada, Higienização Profunda & Estética de Estofados (UltraClean Anápolis)](./INSTRUCOES_SITE_ULTRACLEAN_IMPERMEABILIZACAO.md)
+* [🏗️ Construção Civil, Reformas, Instalações Elétricas & Câmeras CFTV (VM Instalações - Blumenau)](./INSTRUCOES_SITE_CONSTRUCAO_CIVIL_E_INSTALACOES_VM.md)
 
 ---
 
@@ -135,8 +157,13 @@ Catálogo completo dos mais de 70 repositórios e projetos desenvolvidos no ecos
 * [`eficaz-manutencao`](https://github.com/KrayKrazy/eficaz-manutencao) — Assistência técnica para geladeiras e lavadoras Lava & Seca.
 * [`msmanuten-es`](https://github.com/KrayKrazy/msmanuten-es) — Manutenção predial, reformas e instalações residenciais.
 * [`bsbeletrica`](https://github.com/KrayKrazy/bsbeletrica) — Serviços de instalações elétricas e laudos técnicos em Brasília.
+* [🏗️ `vm-instalacoes`](https://vm-instalacoes-kelevra.vercel.app) — Construção civil, reformas, instalações elétricas (NR-10), conserto de câmeras CFTV e plantão 24h em Blumenau (SC). Deploy: [vm-instalacoes-kelevra.vercel.app](https://vm-instalacoes-kelevra.vercel.app).
 * [`sadeletronica`](https://github.com/KrayKrazy/sadeletronica) — Reparo e manutenção de placas e eletrônicos residenciais.
 * [`sad-tec`](https://github.com/KrayKrazy/sad-tec) — Site institucional SAD Tec Eletrônica e Automação.
+* [🚪 adt-telecom-portoes](https://adt-telecom-brasilia.vercel.app) — Automação de portões eletrônicos, manutenção express, motores Rossi e câmeras CFTV em Brasília (DF).
+* [`portao-seguranca-goiania`](https://portao-seguranca-goiania.vercel.app) — Conserto de portões eletrônicos no mesmo dia, troca de cabos e placas em Goiânia (GO).
+* [`jr-portoes-eletronicos`](https://jr-portoes-eletronicos.vercel.app) — Fábrica de portões automáticos, basculantes e manutenção 24h em Goiânia (GO).
+* [`dcore-moveis-planejados`](https://dcore-moveis-planejados.vercel.app) — Marcenaria de alto padrão, móveis planejados sob medida e slider cinematográfico com 21 fotos sem cortes em Aparecida de Goiânia e Goiânia (GO).
 * [`serralheria`](https://github.com/KrayKrazy/serralheria) — Portões automáticos, grades, estruturas metálicas e coberturas.
 * [`maderart`](https://github.com/KrayKrazy/maderart) — Marcenaria fina e móveis planejados de alto padrão.
 * [`marmogran`](https://github.com/KrayKrazy/marmogran) — Marmoraria, granitos, bancadas e acabamentos nobres.
@@ -178,6 +205,7 @@ Catálogo completo dos mais de 70 repositórios e projetos desenvolvidos no ecos
 * [`fazendola`](https://github.com/KrayKrazy/fazendola) — Apresentação imobiliária rural e agronegócio.
 * [`torres`](https://github.com/KrayKrazy/torres) — Gestão de projetos e serviços especializados.
 * [`Clean`](https://github.com/KrayKrazy/Clean) — Serviços de limpeza e higienização especializada.
+* [`ultraclean-anapolis`](https://github.com/KrayKrazy/ultraclean-anapolis) — Landing page oficial UltraClean Anápolis (Impermeabilização de estofados, estética têxtil e simulador 1-minuto WhatsApp).
 * [`maosdeouro`](https://github.com/KrayKrazy/maosdeouro) — Massoterapia e cuidados corporais integrativos.
 * [`biodinamica`](https://github.com/KrayKrazy/biodinamica) — Saúde integrativa e bem-estar corporal.
 
