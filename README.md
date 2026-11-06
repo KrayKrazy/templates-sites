@@ -60,6 +60,7 @@ Diferente de templates convencionais de mercado que sofrem com excesso de biblio
 | Diretório | Nicho / Segmento | Stack Principal | Componentes Interativos & CRO | Manual SOP Vinculado |
 | :--- | :--- | :--- | :--- | :--- |
 | [`brand-michelle-cristina`](./brand-michelle-cristina/) | Design System & Identidade Visual | HTML5 + CSS3 + SVGs | Manual vivo de marca com paleta completa e acervo vetorial | [README_BRAND](./brand-michelle-cristina/README_BRAND_MICHELLE_CRISTINA.md) |
+| [`template-brilhe-estofados`](./template-brilhe-estofados/) | Limpeza e Higienização de Estofados, Colchões & Tapetes (Anápolis - GO) | HTML5 + CSS Tokens Vibrant Hydro Clean + Vanilla JS | **Diagnóstico Visual Interativo**, Simulador Multi-Peças com Desconto Progressivo, Live Duty Clock e Dual WhatsApp | [INSTRUCOES](./INSTRUCOES_SITE_BRILHE_ESTOFADOS.md) |
 | [`template-cartuchos`](./template-cartuchos/) | Suprimentos de TI & Recarga | HTML5 + CSS3 + Vanilla JS | Simulador interativo de recarga/toner por marca e modelo com WhatsApp | [INSTRUCOES](./INSTRUCOES_SITE_MULTI_CARTUCHOS.md) |
 | [`template-chaveiro-goias`](./template-chaveiro-goias/) | Chaveiro 24 Horas & Segurança Residencial/Automotiva | HTML5 + CSS Tokens + Vanilla JS | **Simulador de Atendimento Emergencial 24h**, Seletor de Chamado Rápido, Avaliações Google 5.0 e Sticky Bar Mobile | [INSTRUCOES](./INSTRUCOES_SITE_CHAVEIRO_GOIAS_CHAVES_24HS.md) |
 | [`template-chaveiro-jairo`](./template-chaveiro-jairo/) | Chaveiro 24 Horas em Goiânia (Jd. Pompéia) | HTML5 + CSS Tokens + Vanilla JS | **Simulador de Emergência 24h**, Seletor Rápido de Serviços, Prova Social Google 5.0 e Sticky Bar Mobile | [INSTRUCOES](./INSTRUCOES_SITE_CHAVEIRO_JAIRO_24HS.md) |
@@ -78,6 +79,7 @@ Diferente de templates convencionais de mercado que sofrem com excesso de biblio
 | [`template-portoes-eletronicos`](./template-portoes-eletronicos/) | Portões Eletrônicos & Segurança CFTV (Brasília) | HTML5 + CSS Tokens + Vanilla JS | **Simulador de Diagnóstico Express**, Vitrine c/ Preços Reais e Prova Google | [INSTRUCOES](./INSTRUCOES_SITE_PORTOES_ELETRONICOS_ADT_TELECOM.md) |
 | [`portao-eletronico-goiania`](../portao%20eletronico/) | Portões Eletrônicos & Segurança (Goiânia) | Tailwind CDN + CSS + JS (Zero IA) | **Seletor de Diagnóstico 1-Clique**, Prova Social 5.0 (Renaldo/Fabio/Kesia) e Mapa | [INSTRUCOES](./INSTRUCOES_SITE_PORTAO_ELETRONICO_GOIANIA.md) |
 | [`jr-portoes-eletronicos`](../jr%20portoes%20eletronicos/) | Fábrica de Portões Automáticos & Manutenção 24h (Goiânia) | HTML5 + CSS Tokens Dark Luxury + Vanilla JS | **Design Espelhado JR Portões Automáticos**, Galeria de Modelos, Form WhatsApp e Prova 5.0★ | [INSTRUCOES](./INSTRUCOES_SITE_JR_PORTOES_ELETRONICOS.md) |
+| [`template-jr-portas-automaticas`](./template-jr-portas-automaticas/) | Portas de Enrolar Automáticas, Portões Comerciais & Serralheria (Valparaíso - GO / DF) | HTML5 + CSS Tokens Midnight Navy & Steel + Vanilla JS | **Simulador Interativo de Preço 1-Minuto**, Bento Grid de Soluções, Galeria Antes & Depois Real e Prova Google 4.3★ | [INSTRUCOES](./INSTRUCOES_SITE_JR_PORTAS_AUTOMATICAS.md) |
 | [`template-spa`](./template-spa/) | Head Spa & Terapias Sensoriais | Tailwind CSS + Lucide Icons | Protocolos de terapia capilar, simulador de experiência e galeria sensorial | [INSTRUCOES](./INSTRUCOES_SITE_SPA_HEAD_SPA_HAGATA.md) |
 | [`template-ultraclean-impermeabilizacao`](./template-ultraclean-impermeabilizacao/) | Impermeabilização Blindada, Estética de Estofados & Higienização (Anápolis - GO) | HTML5 + CSS Tokens Dark Obsidian & Liquid Gold + Vanilla JS | **Slider Interativo Antes & Depois**, Simulador de Orçamento 1-Minuto p/ WhatsApp, Efeito Lótus e Prova Google 5.0★ | [INSTRUCOES](./INSTRUCOES_SITE_ULTRACLEAN_IMPERMEABILIZACAO.md) |
 | [`template-veterinaria`](./template-veterinaria/) | Clínica Veterinária & Pronto Socorro 24h | Vanilla JS + Live Clock Engine | **Live Duty Clock** (Plantão ativo a cada 30s) e Triagem de Emergência SOS | [INSTRUCOES](./INSTRUCOES_SITE_CLINICA_VETERINARIA_MAIS_VET.md) |
@@ -88,6 +90,7 @@ Diferente de templates convencionais de mercado que sofrem com excesso de biblio
 
 Cada manual detalha a psicologia de compra do nicho, benchmarking extraído do GitHub, anatomia das seções e estratégias de SEO Local:
 
+* [🚪 Portas de Enrolar Automáticas, Portões Industriais & Serralheria (JR Portas - Valparaíso de Goiás e DF)](./INSTRUCOES_SITE_JR_PORTAS_AUTOMATICAS.md)
 * [🚪 Portões Eletrônicos, Manutenção Express & Câmeras CFTV (ADT Telecom - Brasília)](./INSTRUCOES_SITE_PORTOES_ELETRONICOS_ADT_TELECOM.md)
 * [🚪 Portão Eletrônico & Segurança Eletrônica (Goiânia - GO)](./INSTRUCOES_SITE_PORTAO_ELETRONICO_GOIANIA.md)
 * [🚪 JR Portões Automáticos & Fábrica de Portões 24h (Goiânia - GO)](./INSTRUCOES_SITE_JR_PORTOES_ELETRONICOS.md)
@@ -108,6 +111,7 @@ Cada manual detalha a psicologia de compra do nicho, benchmarking extraído do G
 * [🪵 Marcenaria Fina, Móveis Sob Medida & Slider Zero-Crop (Marcenaria D'Core - Aparecida de Goiânia)](./INSTRUCOES_SITE_DCORE_MOVEIS_PLANEJADOS.md)
 * [🛋️ Sofás Sob Medida, Reformas & Móveis Planejados (Freitas Estofados)](./INSTRUCOES_SITE_FREITAS_ESTOFADOS_MOVEIS_PLANEJADOS.md)
 * [🌿 Head Spa, Estética Avançada e Bem-Estar Sensorial (Hágata SPA)](./INSTRUCOES_SITE_SPA_HEAD_SPA_HAGATA.md)
+* [🧼 Limpeza e Higienização Profissional com Diagnóstico & Simulador Multi-Peças (Brilhe Estofados)](./INSTRUCOES_SITE_BRILHE_ESTOFADOS.md)
 * [🛡️ Impermeabilização Blindada, Higienização Profunda & Estética de Estofados (UltraClean Anápolis)](./INSTRUCOES_SITE_ULTRACLEAN_IMPERMEABILIZACAO.md)
 * [🏗️ Construção Civil, Reformas, Instalações Elétricas & Câmeras CFTV (VM Instalações - Blumenau)](./INSTRUCOES_SITE_CONSTRUCAO_CIVIL_E_INSTALACOES_VM.md)
 
@@ -162,6 +166,7 @@ Catálogo completo dos mais de 70 repositórios e projetos desenvolvidos no ecos
 * [`sad-tec`](https://github.com/KrayKrazy/sad-tec) — Site institucional SAD Tec Eletrônica e Automação.
 * [🚪 adt-telecom-portoes](https://adt-telecom-brasilia.vercel.app) — Automação de portões eletrônicos, manutenção express, motores Rossi e câmeras CFTV em Brasília (DF).
 * [`portao-seguranca-goiania`](https://portao-seguranca-goiania.vercel.app) — Conserto de portões eletrônicos no mesmo dia, troca de cabos e placas em Goiânia (GO).
+* [🚪 `jr-portas-automaticas`](https://jr-portas-automaticas.vercel.app) — Fabricação de portas de enrolar automáticas, aço galvanizado sob medida, parcelamento em 10x sem juros e manutenção em Valparaíso de Goiás e DF. Deploy: [jr-portas-automaticas.vercel.app](https://jr-portas-automaticas.vercel.app).
 * [`jr-portoes-eletronicos`](https://jr-portoes-eletronicos.vercel.app) — Fábrica de portões automáticos, basculantes e manutenção 24h em Goiânia (GO).
 * [`dcore-moveis-planejados`](https://dcore-moveis-planejados.vercel.app) — Marcenaria de alto padrão, móveis planejados sob medida e slider cinematográfico com 21 fotos sem cortes em Aparecida de Goiânia e Goiânia (GO).
 * [`serralheria`](https://github.com/KrayKrazy/serralheria) — Portões automáticos, grades, estruturas metálicas e coberturas.
@@ -205,6 +210,7 @@ Catálogo completo dos mais de 70 repositórios e projetos desenvolvidos no ecos
 * [`fazendola`](https://github.com/KrayKrazy/fazendola) — Apresentação imobiliária rural e agronegócio.
 * [`torres`](https://github.com/KrayKrazy/torres) — Gestão de projetos e serviços especializados.
 * [`Clean`](https://github.com/KrayKrazy/Clean) — Serviços de limpeza e higienização especializada.
+* [`brilhe-estofados`](https://github.com/KrayKrazy/brilhe-estofados) — Landing page oficial Brilhe Estofados com diagnóstico de sintomas, carrinho multi-peças e live duty clock (Anápolis - GO).
 * [`ultraclean-anapolis`](https://github.com/KrayKrazy/ultraclean-anapolis) — Landing page oficial UltraClean Anápolis (Impermeabilização de estofados, estética têxtil e simulador 1-minuto WhatsApp).
 * [`maosdeouro`](https://github.com/KrayKrazy/maosdeouro) — Massoterapia e cuidados corporais integrativos.
 * [`biodinamica`](https://github.com/KrayKrazy/biodinamica) — Saúde integrativa e bem-estar corporal.
