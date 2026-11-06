@@ -7,7 +7,7 @@ Utilize este documento como **Procedimento Operacional Padrão (SOP)** e templat
 ---
 
 ## 📑 Índice
-1. [Visão Geral & Diferenciação Técnica (SoffCar vs. Brilhe vs. UltraClean)](#1-visão-geral--diferenciação-técnica)
+1. [Visão Geral & Posicionamento da SoffCar](#1-visão-geral--posicionamento-da-soffcar)
 2. [O Espaço Dedicado para Vídeos ("SoffCar Cinema Showcase")](#2-o-espaço-dedicado-para-vídeos)
 3. [Instruções para Inserir os Vídeos do Cliente (Após o Fechamento)](#3-instruções-para-inserir-os-vídeos-do-cliente)
 4. [As Novas Técnicas de Engenharia & CRO Exclusivas](#4-as-novas-técnicas-de-engenharia--cro-exclusivas)
@@ -21,23 +21,22 @@ Utilize este documento como **Procedimento Operacional Padrão (SOP)** e templat
 
 ---
 
-## 1. Visão Geral & Diferenciação Técnica
+## 1. Visão Geral & Posicionamento da SoffCar
 
-A SoffCar possui um diferencial marcante em seu próprio nome: **SOFF** (Sofás & Estofados Residenciais) + **CAR** (Estética & Higienização Interna Automotiva). O site foi construído para capitalizar esse posicionamento único no mercado do Distrito Federal.
+A SoffCar possui um diferencial marcante em seu próprio nome: **SOFF** (Sofás & Estofados Residenciais) + **CAR** (Estética & Higienização Interna Automotiva). O site foi construído sob medida para consolidar esse posicionamento premium no mercado de Samambaia e de todo o Distrito Federal.
 
-| Pilar de Engenharia | UltraClean | Brilhe Estofados | SoffCar |
-| :--- | :--- | :--- | :--- |
-| **Atmosfera Visual** | Dark Obsidian (`#080C14`) + Ouro Líquido (`#D4AF37`) | Vibrant Hydro Clean (`#FFFFFF`, `#F0F9FF`) + Ciano Elétrico | **Dark Tech Obsidian (`#070D1D`) + Neon Cyan Glow (`#00E5FF`)** |
-| **Foco Central** | Impermeabilização de alto padrão e luxo | Higiene clínica de saúde familiar e alergias | **Showcase de Vídeos Reais + Foco Dual (Sofás & Automotivo)** |
-| **Demonstração de Prova** | Galeria fotográfica estática de alta definição | Diagnóstico sintomático por cards | **Showcase Dinâmico de Vídeos + Modal Lightbox + Slider Interativo** |
-| **Orçamento** | Tabela linear por tipo de assento | Carrinho multi-peças com contadores `+/-` | **Simulador Express com Seletor Regional de Cidades do DF** |
-| **Técnica de Vídeo CRO** | Nenhuma | Nenhuma | **CTA de Envio de Vídeo Curto de 5s no WhatsApp para Avaliação** |
+### Pilares Fundamentais do Projeto:
+* **Atmosfera Visual:** Dark Tech Obsidian (`#070D1D`) + Neon Cyan Glow (`#00E5FF`) com efeitos de profundidade e glassmorphism.
+* **Foco Central:** Showcase de Vídeos Reais + Especialização Dual (Estofados da Casa & Detalhamento Interno de Veículos).
+* **Demonstração de Prova:** Player dinâmico de vídeos com abas de categoria, lightbox modal em tela cheia e slider interativo antes/depois.
+* **Orçamento:** Simulador Express integrado às Regiões Administrativas do DF, gerando mensagem pronta para o WhatsApp.
+* **Técnica de Vídeo CRO:** Chamada para o cliente gravar um vídeo curto de 5s do seu estofado ou veículo para avaliação instantânea.
 
 ---
 
 ## 2. O Espaço Dedicado para Vídeos ("SoffCar Cinema Showcase")
 
-A pedido do projeto, foi construído um módulo cinematográfico de conversão em `#videos`:
+O site conta com um módulo cinematográfico de conversão estruturado na seção `#videos`:
 
 1. **Grid de Vídeos Responsivo:** Estruturado para exibir 3 grandes frentes de serviço (Sofá Retrátil, Higienização Automotiva VIP e Teste Hidrofóbico da Impermeabilização).
 2. **Play Button Pulsante Neon:** Animação com anéis de radar (`@keyframes playGlow`) em tom Ciano Elétrico, atraindo o olhar e incentivando a reprodução.
@@ -118,4 +117,4 @@ Os depoimentos reais da ficha do Google Meu Negócio foram incorporados diretame
 - **Repositório GitHub:** `https://github.com/KrayKrazy/soffcar`
 - **URL de Produção na Vercel:** `https://soffcar.vercel.app` *(ou espelho `https://soffcar-kelevra.vercel.app`)*
 - **Pasta Local do Template:** `C:\Users\Solano\Documents\sites\templates sites\template-soffcar`
-- **Pasta do Cliente Atualizada:** `C:\Users\Solano\Documents\sites\soffcar`
+- **Pasta do Cliente:** `C:\Users\Solano\Documents\sites\soffcar`
